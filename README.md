@@ -1,27 +1,3 @@
-[Study title]
-=============
-
-<img src="https://img.shields.io/badge/Study%20Status-Repo%20Created-lightgray.svg" alt="Study Status: Repo Created">
-
-- Analytics use case(s): **Phenotype Development and Evaluation - Characterization**
-- Study type: **Characterization**
-- Tags: **OHDSI Phenotype Development and Evaluation**
-- Study lead: **OHDSI**
-- Study lead forums tag: **[[Lead tag]](https://forums.ohdsi.org/u/[Lead tag])**
-- Study start date: **02/01/2022**
-- Study end date: **02/28/2022**
-- Protocol: **NA**
-- Publications: **NA**
-- Results explorer: **https://data.ohdsi.org/phenotypePhebruary/**
-
-**https://forums.ohdsi.org/t/phenotype-phebruary-introduction-feb-1-community-call/15741**
-
-
-
-
-
-
-
 phenotypePhebruary
 ==============================
 
@@ -126,4 +102,3 @@ phenotypePhebruary was developed in ATLAS and R Studio.
 ### Development status
 
 Unknown
-

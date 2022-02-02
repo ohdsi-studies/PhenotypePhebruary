@@ -99,8 +99,8 @@ execute <- function(connectionDetails,
   
   # get cohort definitions from study package
   cohortDefinitionSet <-
-    CohortDiagnostics::loadCohortsFromPackage(packageName = "phenotypePhebruary",
-                                              cohortToCreateFile = "settings/CohortsToCreate.csv")
+    dplyr::tibble(CohortGenerator::getCohortDefinitionSet(packageName = "phenotypePhebruary", 
+                                            cohortFileNameValue = "cohortId"))
   
   # Generate the cohort set
   CohortGenerator::generateCohortSet(
