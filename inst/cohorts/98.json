@@ -1,0 +1,682 @@
+{
+  "ExpressionLimit": {"Type": "First"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {},
+  "ConceptSets": [
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 437233,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "109989006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Multiple myeloma",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 436059,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "94704006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Multiple myeloma in remission",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        }
+      ]},
+      "name": "Multiple myeloma",
+      "id": 0
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2108452,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "38220",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Diagnostic bone marrow; aspiration(s)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2108453,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "38221",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Diagnostic bone marrow; biopsy(ies)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2213283,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "88305",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Level IV - Surgical pathology, gross and microscopic examination Abortion - spontaneous/missed Artery, biopsy Bone marrow, biopsy Bone exostosis Brain/meninges, other than for tumor resection Breast, biopsy, not requiring microscopic evaluation of surgica",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2617439,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "G0364",
+            "VOCABULARY_ID": "HCPCS",
+            "CONCEPT_NAME": "Bone marrow aspiration performed with bone marrow biopsy through the same incision on the same date of service",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "HCPCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        }
+      ]},
+      "name": "bone marrow aspirate, biopsy, or interpretation",
+      "id": 1
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2212344,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "82784",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Gammaglobulin (immunoglobulin); IgA, IgD, IgG, IgM, each",
+            "DOMAIN_ID": "Measurement",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2212471,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "83883",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Nephelometry, each analyte not elsewhere specified",
+            "DOMAIN_ID": "Measurement",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2212800,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "86334",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Immunofixation electrophoresis; serum",
+            "DOMAIN_ID": "Measurement",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2212549,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "84165",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Protein; electrophoretic fractionation and quantitation, serum",
+            "DOMAIN_ID": "Measurement",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2212550,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "84166",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Protein; electrophoretic fractionation and quantitation, other fluids with concentration (eg, urine, CSF)",
+            "DOMAIN_ID": "Measurement",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        }
+      ]},
+      "name": "Diagnostic tests for multiple myeloma",
+      "id": 2
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19137042,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "10432",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "thalidomide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19026972,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "342369",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "lenalidomide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1336825,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "358258",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "bortezomib",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1310317,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "3002",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cyclophosphamide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1338512,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "3639",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "doxorubicin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1301267,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "6718",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "melphalan",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1308290,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "11202",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "vincristine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1350066,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2105",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "carmustine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1397599,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2555",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cisplatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 722424,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "75917",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "interferon beta-1a",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 713196,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "72257",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "interferon beta-1b",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1380068,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "5880",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "interferon alfa-2b",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1350504,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "4179",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "etoposide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19137385,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "10473",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "thiotepa",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1518254,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "3264",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "dexamethasone",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "multiple myeloma drugs from Brandenburg",
+      "id": 3
+    }
+  ],
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [],
+  "AdditionalCriteria": {
+    "CriteriaList": [{
+      "RestrictVisit": false,
+      "StartWindow": {
+        "UseEventEnd": false,
+        "Start": {
+          "Days": 30,
+          "Coeff": 1
+        },
+        "End": {"Coeff": 1},
+        "UseIndexEnd": false
+      },
+      "IgnoreObservationPeriod": false,
+      "Criteria": {"ConditionOccurrence": {
+        "ConditionTypeExclude": false,
+        "CodesetId": 0
+      }},
+      "Occurrence": {
+        "Type": 2,
+        "IsDistinct": false,
+        "Count": 1
+      }
+    }],
+    "Type": "ALL",
+    "DemographicCriteriaList": [],
+    "Groups": [{
+      "CriteriaList": [
+        {
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 0,
+              "Coeff": 1
+            },
+            "End": {"Coeff": 1},
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "Criteria": {"ProcedureOccurrence": {
+            "CorrelatedCriteria": {
+              "CriteriaList": [
+                {
+                  "RestrictVisit": false,
+                  "StartWindow": {
+                    "UseEventEnd": false,
+                    "Start": {
+                      "Days": 5,
+                      "Coeff": 1
+                    },
+                    "End": {
+                      "Days": 90,
+                      "Coeff": 1
+                    },
+                    "UseIndexEnd": false
+                  },
+                  "IgnoreObservationPeriod": false,
+                  "Criteria": {"ConditionOccurrence": {
+                    "ConditionTypeExclude": false,
+                    "CodesetId": 0
+                  }},
+                  "Occurrence": {
+                    "Type": 2,
+                    "CountColumn": "DOMAIN_CONCEPT",
+                    "IsDistinct": false,
+                    "Count": 2
+                  }
+                },
+                {
+                  "RestrictVisit": false,
+                  "StartWindow": {
+                    "UseEventEnd": false,
+                    "Start": {
+                      "Days": 0,
+                      "Coeff": 1
+                    },
+                    "End": {"Coeff": 1},
+                    "UseIndexEnd": false
+                  },
+                  "IgnoreObservationPeriod": false,
+                  "Criteria": {"DrugExposure": {
+                    "CodesetId": 3,
+                    "DrugTypeExclude": false
+                  }},
+                  "Occurrence": {
+                    "Type": 2,
+                    "IsDistinct": false,
+                    "Count": 1
+                  }
+                }
+              ],
+              "Type": "ALL",
+              "DemographicCriteriaList": [],
+              "Groups": []
+            },
+            "CodesetId": 1,
+            "ProcedureTypeExclude": false
+          }},
+          "Occurrence": {
+            "Type": 2,
+            "IsDistinct": false,
+            "Count": 1
+          }
+        },
+        {
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 0,
+              "Coeff": 1
+            },
+            "End": {"Coeff": 1},
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "Criteria": {"Measurement": {
+            "MeasurementTypeExclude": false,
+            "CorrelatedCriteria": {
+              "CriteriaList": [
+                {
+                  "RestrictVisit": false,
+                  "StartWindow": {
+                    "UseEventEnd": false,
+                    "Start": {
+                      "Days": 5,
+                      "Coeff": 1
+                    },
+                    "End": {
+                      "Days": 90,
+                      "Coeff": 1
+                    },
+                    "UseIndexEnd": false
+                  },
+                  "IgnoreObservationPeriod": false,
+                  "Criteria": {"ConditionOccurrence": {
+                    "ConditionTypeExclude": false,
+                    "CodesetId": 0
+                  }},
+                  "Occurrence": {
+                    "Type": 2,
+                    "IsDistinct": false,
+                    "Count": 2
+                  }
+                },
+                {
+                  "RestrictVisit": false,
+                  "StartWindow": {
+                    "UseEventEnd": false,
+                    "Start": {
+                      "Days": 0,
+                      "Coeff": 1
+                    },
+                    "End": {"Coeff": 1},
+                    "UseIndexEnd": false
+                  },
+                  "IgnoreObservationPeriod": false,
+                  "Criteria": {"DrugExposure": {
+                    "CodesetId": 3,
+                    "DrugTypeExclude": false
+                  }},
+                  "Occurrence": {
+                    "Type": 2,
+                    "IsDistinct": false,
+                    "Count": 1
+                  }
+                }
+              ],
+              "Type": "ALL",
+              "DemographicCriteriaList": [],
+              "Groups": []
+            },
+            "CodesetId": 2
+          }},
+          "Occurrence": {
+            "Type": 2,
+            "CountColumn": "DOMAIN_CONCEPT",
+            "IsDistinct": false,
+            "Count": 2
+          }
+        }
+      ],
+      "Type": "ANY",
+      "DemographicCriteriaList": [],
+      "Groups": []
+    }]
+  },
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [],
+  "PrimaryCriteria": {
+    "CriteriaList": [{"ConditionOccurrence": {
+      "ConditionTypeExclude": false,
+      "CodesetId": 0,
+      "Age": {
+        "Op": "gte",
+        "Value": 18
+      }
+    }}],
+    "PrimaryCriteriaLimit": {"Type": "First"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 0
+    }
+  }
+}

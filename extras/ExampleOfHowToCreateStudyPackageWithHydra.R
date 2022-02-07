@@ -27,7 +27,9 @@ ROhdsiWebApi::authorizeWebApi(baseUrl = baseUrl,
                               webApiPassword = keyring::key_get(service = "ohdsiAtlasPhenotypePassword"))
 
 studyCohorts <- ROhdsiWebApi::getCohortDefinitionsMetaData(baseUrl = baseUrl) %>% 
-  dplyr::filter(stringr::str_detect(string = tolower(.data$name), 
+  dplyr::filter(stringr::str_detect(string = stringr::str_replace_all(tolower(.data$name), 
+                                                                      pattern = " ", 
+                                                                      replacement = ""),
                                     pattern = "phenotypephebruary"))
 
 # compile them into a data table

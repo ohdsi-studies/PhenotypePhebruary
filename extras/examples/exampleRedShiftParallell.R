@@ -31,7 +31,7 @@ databaseIds <-
     'truven_ccae',
     'truven_mdcd',
     'cprd',
-    # 'jmdc',
+    'jmdc',
     # 'optum_extended_dod',
     # 'optum_ehr',
     'truven_mdcr',
