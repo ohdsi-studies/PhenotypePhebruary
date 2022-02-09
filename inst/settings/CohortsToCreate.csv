@@ -27,3 +27,4 @@ atlasId,cohortId,id,cohortName
 114,114,114,[Phenotype Phebruary][Delirium] All events of inpatient visit with Confusional state
 115,115,115,"[Phenotype Phebruary][Delirium] All event of Confessional state, with 14d era gap"
 116,116,116,[Phenotype Phebruary][Delirium] All events of inpatient visit with Delirium
+118,118,118,"[Phenotype Phebruary][Delirium] All events of inpatient visit with Delirium, by McCoy et.al"
