@@ -4,7 +4,7 @@
   "description": "Cohort diagnostics and Phenotype Phebruary.",
   "version": "v0.1.0",
   "skeletonVersion": "v0.0.1",
-  "createdDate": 19031,
+  "createdDate": 19032,
   "createdBy": "rao@ohdsi.org",
   "cohortDefinitions": [
     {
@@ -24147,10 +24147,844 @@
       "modifiedDate": 1644368100.3099999427795,
       "name": "[Phenotype Phebruary][Kidney stones] Kidney stone events with 365d era gap",
       "id": 112
+    },
+    {
+      "createdDate": 1644422790.9159998893738,
+      "expression": {
+        "ExpressionLimit": {"Type": "All"},
+        "CollapseSettings": {
+          "CollapseType": "ERA",
+          "EraPad": 14
+        },
+        "CensorWindow": {},
+        "ConceptSets": [
+          {
+            "expression": {"items": [
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 4319447,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "95566004",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Urolithiasis",
+                  "DOMAIN_ID": "Condition",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Clinical Finding",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": true,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 193818,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "85324003",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Calculus of prostate",
+                  "DOMAIN_ID": "Condition",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Clinical Finding",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              }
+            ]},
+            "name": "[Phenotype Phebruary] Kidney stones",
+            "id": 0
+          },
+          {
+            "expression": {"items": [
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 373995,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "2776000",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Delirium",
+                  "DOMAIN_ID": "Condition",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Clinical Finding",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 376946,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "191461002",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Senile dementia with delirium",
+                  "DOMAIN_ID": "Condition",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Clinical Finding",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 376094,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "191464005",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Arteriosclerotic dementia with delirium",
+                  "DOMAIN_ID": "Condition",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Clinical Finding",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": false
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 4088373,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "18653004",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Alcohol intoxication delirium",
+                  "DOMAIN_ID": "Condition",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Clinical Finding",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 381832,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "191452002",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Presenile dementia with delirium",
+                  "DOMAIN_ID": "Condition",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Clinical Finding",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 4199769,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "52866005",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Opioid intoxication delirium",
+                  "DOMAIN_ID": "Condition",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Clinical Finding",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 4262566,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "361151007",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Sedative withdrawal delirium",
+                  "DOMAIN_ID": "Condition",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Clinical Finding",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              }
+            ]},
+            "name": "Delirium",
+            "id": 1
+          }
+        ],
+        "EndStrategy": {"DateOffset": {
+          "DateField": "EndDate",
+          "Offset": 0
+        }},
+        "cdmVersionRange": ">=5.0.0",
+        "CensoringCriteria": [],
+        "QualifiedLimit": {"Type": "First"},
+        "InclusionRules": [],
+        "PrimaryCriteria": {
+          "CriteriaList": [{"ConditionOccurrence": {
+            "ConditionTypeExclude": false,
+            "CodesetId": 1
+          }}],
+          "PrimaryCriteriaLimit": {"Type": "All"},
+          "ObservationWindow": {
+            "PostDays": 0,
+            "PriorDays": 0
+          }
+        }
+      },
+      "logicDescription": "",
+      "modifiedDate": 1644422790.9159998893738,
+      "name": "[Phenotype Phebruary][Delirium] All event of Delirium, with 14d era gap",
+      "id": 113
+    },
+    {
+      "createdDate": 1644423369.404000043869,
+      "expression": {
+        "ExpressionLimit": {"Type": "All"},
+        "CollapseSettings": {
+          "CollapseType": "ERA",
+          "EraPad": 1
+        },
+        "CensorWindow": {},
+        "ConceptSets": [
+          {
+            "expression": {"items": [
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 262,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "ERIP",
+                  "VOCABULARY_ID": "Visit",
+                  "CONCEPT_NAME": "Emergency Room and Inpatient Visit",
+                  "DOMAIN_ID": "Visit",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Visit",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 9201,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "IP",
+                  "VOCABULARY_ID": "Visit",
+                  "CONCEPT_NAME": "Inpatient Visit",
+                  "DOMAIN_ID": "Visit",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Visit",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              }
+            ]},
+            "name": "Inpatient or inpatient ER visit",
+            "id": 2
+          },
+          {
+            "expression": {"items": [
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 376946,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "191461002",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Senile dementia with delirium",
+                  "DOMAIN_ID": "Condition",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Clinical Finding",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 376094,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "191464005",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Arteriosclerotic dementia with delirium",
+                  "DOMAIN_ID": "Condition",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Clinical Finding",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": false
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 4088373,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "18653004",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Alcohol intoxication delirium",
+                  "DOMAIN_ID": "Condition",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Clinical Finding",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 381832,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "191452002",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Presenile dementia with delirium",
+                  "DOMAIN_ID": "Condition",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Clinical Finding",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 4199769,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "52866005",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Opioid intoxication delirium",
+                  "DOMAIN_ID": "Condition",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Clinical Finding",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 4262566,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "361151007",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Sedative withdrawal delirium",
+                  "DOMAIN_ID": "Condition",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Clinical Finding",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 381273,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "286933003",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Confusional state",
+                  "DOMAIN_ID": "Condition",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Clinical Finding",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              }
+            ]},
+            "name": "Confusional state",
+            "id": 3
+          }
+        ],
+        "EndStrategy": {"DateOffset": {
+          "DateField": "EndDate",
+          "Offset": 0
+        }},
+        "cdmVersionRange": ">=5.0.0",
+        "CensoringCriteria": [],
+        "QualifiedLimit": {"Type": "First"},
+        "InclusionRules": [],
+        "PrimaryCriteria": {
+          "CriteriaList": [{"VisitOccurrence": {
+            "CorrelatedCriteria": {
+              "CriteriaList": [{
+                "RestrictVisit": false,
+                "StartWindow": {
+                  "UseEventEnd": false,
+                  "Start": {
+                    "Days": 0,
+                    "Coeff": -1
+                  },
+                  "End": {"Coeff": 1},
+                  "UseIndexEnd": false
+                },
+                "IgnoreObservationPeriod": false,
+                "EndWindow": {
+                  "UseEventEnd": true,
+                  "Start": {"Coeff": -1},
+                  "End": {
+                    "Days": 0,
+                    "Coeff": 1
+                  },
+                  "UseIndexEnd": true
+                },
+                "Criteria": {"ConditionOccurrence": {
+                  "ConditionTypeExclude": false,
+                  "CodesetId": 3
+                }},
+                "Occurrence": {
+                  "Type": 2,
+                  "IsDistinct": false,
+                  "Count": 1
+                }
+              }],
+              "Type": "ALL",
+              "DemographicCriteriaList": [],
+              "Groups": []
+            },
+            "CodesetId": 2,
+            "VisitTypeExclude": false
+          }}],
+          "PrimaryCriteriaLimit": {"Type": "All"},
+          "ObservationWindow": {
+            "PostDays": 0,
+            "PriorDays": 0
+          }
+        }
+      },
+      "logicDescription": "",
+      "modifiedDate": 1644423369.404000043869,
+      "name": "[Phenotype Phebruary][Delirium] All events of inpatient visit with Confusional state",
+      "id": 114
+    },
+    {
+      "createdDate": 1644423787.8420000076294,
+      "expression": {
+        "ExpressionLimit": {"Type": "All"},
+        "CollapseSettings": {
+          "CollapseType": "ERA",
+          "EraPad": 14
+        },
+        "CensorWindow": {},
+        "ConceptSets": [{
+          "expression": {"items": [
+            {
+              "isExcluded": false,
+              "concept": {
+                "INVALID_REASON_CAPTION": "Valid",
+                "CONCEPT_ID": 376946,
+                "STANDARD_CONCEPT": "S",
+                "CONCEPT_CODE": "191461002",
+                "VOCABULARY_ID": "SNOMED",
+                "CONCEPT_NAME": "Senile dementia with delirium",
+                "DOMAIN_ID": "Condition",
+                "STANDARD_CONCEPT_CAPTION": "Standard",
+                "CONCEPT_CLASS_ID": "Clinical Finding",
+                "INVALID_REASON": "V"
+              },
+              "includeMapped": false,
+              "includeDescendants": true
+            },
+            {
+              "isExcluded": false,
+              "concept": {
+                "INVALID_REASON_CAPTION": "Valid",
+                "CONCEPT_ID": 376094,
+                "STANDARD_CONCEPT": "S",
+                "CONCEPT_CODE": "191464005",
+                "VOCABULARY_ID": "SNOMED",
+                "CONCEPT_NAME": "Arteriosclerotic dementia with delirium",
+                "DOMAIN_ID": "Condition",
+                "STANDARD_CONCEPT_CAPTION": "Standard",
+                "CONCEPT_CLASS_ID": "Clinical Finding",
+                "INVALID_REASON": "V"
+              },
+              "includeMapped": false,
+              "includeDescendants": false
+            },
+            {
+              "isExcluded": false,
+              "concept": {
+                "INVALID_REASON_CAPTION": "Valid",
+                "CONCEPT_ID": 4088373,
+                "STANDARD_CONCEPT": "S",
+                "CONCEPT_CODE": "18653004",
+                "VOCABULARY_ID": "SNOMED",
+                "CONCEPT_NAME": "Alcohol intoxication delirium",
+                "DOMAIN_ID": "Condition",
+                "STANDARD_CONCEPT_CAPTION": "Standard",
+                "CONCEPT_CLASS_ID": "Clinical Finding",
+                "INVALID_REASON": "V"
+              },
+              "includeMapped": false,
+              "includeDescendants": true
+            },
+            {
+              "isExcluded": false,
+              "concept": {
+                "INVALID_REASON_CAPTION": "Valid",
+                "CONCEPT_ID": 381832,
+                "STANDARD_CONCEPT": "S",
+                "CONCEPT_CODE": "191452002",
+                "VOCABULARY_ID": "SNOMED",
+                "CONCEPT_NAME": "Presenile dementia with delirium",
+                "DOMAIN_ID": "Condition",
+                "STANDARD_CONCEPT_CAPTION": "Standard",
+                "CONCEPT_CLASS_ID": "Clinical Finding",
+                "INVALID_REASON": "V"
+              },
+              "includeMapped": false,
+              "includeDescendants": true
+            },
+            {
+              "isExcluded": false,
+              "concept": {
+                "INVALID_REASON_CAPTION": "Valid",
+                "CONCEPT_ID": 4199769,
+                "STANDARD_CONCEPT": "S",
+                "CONCEPT_CODE": "52866005",
+                "VOCABULARY_ID": "SNOMED",
+                "CONCEPT_NAME": "Opioid intoxication delirium",
+                "DOMAIN_ID": "Condition",
+                "STANDARD_CONCEPT_CAPTION": "Standard",
+                "CONCEPT_CLASS_ID": "Clinical Finding",
+                "INVALID_REASON": "V"
+              },
+              "includeMapped": false,
+              "includeDescendants": true
+            },
+            {
+              "isExcluded": false,
+              "concept": {
+                "INVALID_REASON_CAPTION": "Valid",
+                "CONCEPT_ID": 4262566,
+                "STANDARD_CONCEPT": "S",
+                "CONCEPT_CODE": "361151007",
+                "VOCABULARY_ID": "SNOMED",
+                "CONCEPT_NAME": "Sedative withdrawal delirium",
+                "DOMAIN_ID": "Condition",
+                "STANDARD_CONCEPT_CAPTION": "Standard",
+                "CONCEPT_CLASS_ID": "Clinical Finding",
+                "INVALID_REASON": "V"
+              },
+              "includeMapped": false,
+              "includeDescendants": true
+            },
+            {
+              "isExcluded": false,
+              "concept": {
+                "INVALID_REASON_CAPTION": "Valid",
+                "CONCEPT_ID": 381273,
+                "STANDARD_CONCEPT": "S",
+                "CONCEPT_CODE": "286933003",
+                "VOCABULARY_ID": "SNOMED",
+                "CONCEPT_NAME": "Confusional state",
+                "DOMAIN_ID": "Condition",
+                "STANDARD_CONCEPT_CAPTION": "Standard",
+                "CONCEPT_CLASS_ID": "Clinical Finding",
+                "INVALID_REASON": "V"
+              },
+              "includeMapped": false,
+              "includeDescendants": true
+            }
+          ]},
+          "name": "Confusional state",
+          "id": 1
+        }],
+        "EndStrategy": {"DateOffset": {
+          "DateField": "EndDate",
+          "Offset": 0
+        }},
+        "cdmVersionRange": ">=5.0.0",
+        "CensoringCriteria": [],
+        "QualifiedLimit": {"Type": "First"},
+        "InclusionRules": [],
+        "PrimaryCriteria": {
+          "CriteriaList": [{"ConditionOccurrence": {
+            "ConditionTypeExclude": false,
+            "CodesetId": 1
+          }}],
+          "PrimaryCriteriaLimit": {"Type": "All"},
+          "ObservationWindow": {
+            "PostDays": 0,
+            "PriorDays": 0
+          }
+        }
+      },
+      "logicDescription": "",
+      "modifiedDate": 1644423787.8420000076294,
+      "name": "[Phenotype Phebruary][Delirium] All event of Confessional state, with 14d era gap",
+      "id": 115
+    },
+    {
+      "createdDate": 1644424054.1640000343323,
+      "expression": {
+        "ExpressionLimit": {"Type": "All"},
+        "CollapseSettings": {
+          "CollapseType": "ERA",
+          "EraPad": 1
+        },
+        "CensorWindow": {},
+        "ConceptSets": [
+          {
+            "expression": {"items": [
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 262,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "ERIP",
+                  "VOCABULARY_ID": "Visit",
+                  "CONCEPT_NAME": "Emergency Room and Inpatient Visit",
+                  "DOMAIN_ID": "Visit",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Visit",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 9201,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "IP",
+                  "VOCABULARY_ID": "Visit",
+                  "CONCEPT_NAME": "Inpatient Visit",
+                  "DOMAIN_ID": "Visit",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Visit",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              }
+            ]},
+            "name": "Inpatient or inpatient ER visit",
+            "id": 2
+          },
+          {
+            "expression": {"items": [
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 373995,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "2776000",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Delirium",
+                  "DOMAIN_ID": "Condition",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Clinical Finding",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 376946,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "191461002",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Senile dementia with delirium",
+                  "DOMAIN_ID": "Condition",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Clinical Finding",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 376094,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "191464005",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Arteriosclerotic dementia with delirium",
+                  "DOMAIN_ID": "Condition",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Clinical Finding",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": false
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 4088373,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "18653004",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Alcohol intoxication delirium",
+                  "DOMAIN_ID": "Condition",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Clinical Finding",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 381832,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "191452002",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Presenile dementia with delirium",
+                  "DOMAIN_ID": "Condition",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Clinical Finding",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 4199769,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "52866005",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Opioid intoxication delirium",
+                  "DOMAIN_ID": "Condition",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Clinical Finding",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 4262566,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "361151007",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Sedative withdrawal delirium",
+                  "DOMAIN_ID": "Condition",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Clinical Finding",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              }
+            ]},
+            "name": "Delirium",
+            "id": 4
+          }
+        ],
+        "EndStrategy": {"DateOffset": {
+          "DateField": "EndDate",
+          "Offset": 0
+        }},
+        "cdmVersionRange": ">=5.0.0",
+        "CensoringCriteria": [],
+        "QualifiedLimit": {"Type": "First"},
+        "InclusionRules": [],
+        "PrimaryCriteria": {
+          "CriteriaList": [{"VisitOccurrence": {
+            "CorrelatedCriteria": {
+              "CriteriaList": [{
+                "RestrictVisit": false,
+                "StartWindow": {
+                  "UseEventEnd": false,
+                  "Start": {
+                    "Days": 0,
+                    "Coeff": -1
+                  },
+                  "End": {"Coeff": 1},
+                  "UseIndexEnd": false
+                },
+                "IgnoreObservationPeriod": false,
+                "EndWindow": {
+                  "UseEventEnd": true,
+                  "Start": {"Coeff": -1},
+                  "End": {
+                    "Days": 0,
+                    "Coeff": 1
+                  },
+                  "UseIndexEnd": true
+                },
+                "Criteria": {"ConditionOccurrence": {
+                  "ConditionTypeExclude": false,
+                  "CodesetId": 4
+                }},
+                "Occurrence": {
+                  "Type": 2,
+                  "IsDistinct": false,
+                  "Count": 1
+                }
+              }],
+              "Type": "ALL",
+              "DemographicCriteriaList": [],
+              "Groups": []
+            },
+            "CodesetId": 2,
+            "VisitTypeExclude": false
+          }}],
+          "PrimaryCriteriaLimit": {"Type": "All"},
+          "ObservationWindow": {
+            "PostDays": 0,
+            "PriorDays": 0
+          }
+        }
+      },
+      "logicDescription": "",
+      "modifiedDate": 1644424054.1640000343323,
+      "name": "[Phenotype Phebruary][Delirium] All events of inpatient visit with Delirium",
+      "id": 116
     }
   ],
   "name": "Phenotype Phebruary - an OHDSI network study",
-  "modifiedDate": 19031,
+  "modifiedDate": 19032,
   "modifiedBy": "rao@ohdsi.org",
   "id": 1,
   "packageName": "phenotypePhebruary"
