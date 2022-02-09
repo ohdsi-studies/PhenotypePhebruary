@@ -3,7 +3,7 @@ library(CohortDiagnostics)
 
 # OHDSI's server:
 connectionDetails <- DatabaseConnector::createConnectionDetails(
-  dbms = dbms,
+  dbms = "postgresql",
   server = paste0(Sys.getenv("phenotypeLibraryServer"), "/", Sys.getenv("phenotypeLibrarydb")),
   port = Sys.getenv("phenotypeLibraryDbPort", unset = 5432),
   user = Sys.getenv("phenotypeLibrarydbUser"),
