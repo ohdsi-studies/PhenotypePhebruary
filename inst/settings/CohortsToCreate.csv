@@ -11,9 +11,15 @@ atlasId,cohortId,id,cohortName
 97,97,97,[Phenotype Phebruary][MM] Persons with Multiple Myeloma (Brandenburg #2- 2 dx + 1 diagnostic proc)
 98,98,98,[Phenotype Phebruary][MM] Persons with Multiple Myeloma (Brandenburg #3- 2 dx + 1 proc + 1 rx)
 99,99,99,[Phenotype Phebruary][MM] Persons with Multiple Myeloma (Brandenburg #4- 2 dx+1 proc+ lt2 MGUS dx)
+110,110,110,[Phenotype Phebruary][Kidney stones] Kidney stone events with 30d era gap
 100,100,100,[Phenotype Phebruary][Alz] Persons with Alzheimers disease indexed at 1st dx
 102,102,102,[Phenotype Phebruary][Alz] Persons with dementia indexed at 1st dx
 103,103,103,[Phenotype Phebruary][Alz] Persons with dementia indexed at 1st dx with 2nd dx in 365d
 104,104,104,[Phenotype Phebruary][Bleed] Bleeding-related hospitalizations
 105,105,105,[Phenotype Phebruary][Bleed] Bleeding-related hospitalizations with definite codes in any position
 106,106,106,[Phenotype Phebruary][Bleed] Bleeding-related events
+108,108,108,[Phenotype Phebruary][Neutropenia] Neutropenia events by lab values
+109,109,109,[Phenotype Phebruary][Neutropenia] Neutropenia events by lab values or diagnosis
+107,107,107,[Phenotype Phebruary][Neutropenia] Neutropenia events by diagnosis
+111,111,111,[Phenotype Phebruary][Kidney stones] Kidney stone events with 90d era gap
+112,112,112,[Phenotype Phebruary][Kidney stones] Kidney stone events with 365d era gap
