@@ -196,7 +196,7 @@
           },
           "IgnoreObservationPeriod": false,
           "EndWindow": {
-            "UseEventEnd": true,
+            "UseEventEnd": false,
             "Start": {"Coeff": -1},
             "End": {
               "Days": 0,
