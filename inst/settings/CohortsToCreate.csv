@@ -27,8 +27,25 @@ atlasId,cohortId,id,cohortName
 114,114,114,[Phenotype Phebruary][Delirium] All events of inpatient visit with Confusional state
 115,115,115,"[Phenotype Phebruary][Delirium] All event of Confessional state, with 14d era gap"
 116,116,116,[Phenotype Phebruary][Delirium] All events of inpatient visit with Delirium
+138,138,138,[Phenotype Phebruary][HTN] Hypertensive disorder not limited to essential
+136,136,136,[Phenotype Phebruary][HTN] Essential Hypertension no exclusions
+135,135,135,[Phenotype Phebruary][HTN] Essential Hypertension exclude secondary causes
+139,139,139,[Phenotype Phebruary][HTN] Secondary Hypertension or Crisis - sudden onset
+140,140,140,[Phenotype Phebruary][HTN] Secondary Hypertension or Crisis - first time
+141,141,141,[Phenotype Phebruary][HTN] Essential Hypertension exclude secondary causes - no diagnosis after 3mth
 118,118,118,"[Phenotype Phebruary][Delirium] All events of inpatient visit with Delirium, by McCoy et.al"
 119,119,119,[PhenotypePhebruary][SLE] Systemic lupus erythematosus incident and correction for index date
 120,120,120,[PhenotypePhebruary][SLE] Systemic lupus erythematosus incident with 2nd dx and corr. for index date
 121,121,121,[Phenotype Phebruary][SLE] Systemic lupus erythematosus prevalent and correction for index date
 122,122,122,[Phenotype Phebruary][SLE] Systemic lupus erythematosus prev. with 2nd dx and corr. for index date
+124,124,124,[Phenotype Phebruary] [HS] Hidradenitis suppurativa incident with 2nd code 31 to 365 days post index
+125,125,125,[Phenotype Phebruary] [HS] Hidradenitis suppurativa prevalent
+126,126,126,[Phenotype Phebruary][HS] Hidradenitis suppurativa prevalent with 2nd code 31 to 365 days post index
+127,127,127,[Phenotype Phebruary] [HS]Hidradenitis suppurativa prevalent codes Kim 2 codes
+128,128,128,[Phenotype Phebruary] [HS] Hidradenitis suppurativa prevalent codes Kim 5 codes
+129,129,129,[Phenotype Phebruary][HS] Hidradenitis suppurativa incident
+130,130,130,[Phenotype Phebruary][PD] Persons with Parkinson's disease - Wu definite
+131,131,131,[Phenotype Phebruary][PD] Persons with Parkinson's disease - Wu possible
+132,132,132,[Phenotype Phebruary][PD] Persons with Parkinson's disease - Wu probable
+133,133,133,[Phenotype Phebruary][ADHD] New users of Attention Deficit Hyperactivity Disorder drugs
+134,134,134,[Phenotype Phebruary][ADHD] Persons with Attention Deficit Hyperactivity Disorder

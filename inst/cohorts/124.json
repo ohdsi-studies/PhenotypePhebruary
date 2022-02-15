@@ -1,0 +1,94 @@
+{
+  "ExpressionLimit": {"Type": "First"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {},
+  "ConceptSets": [{
+    "expression": {"items": [
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4241223,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "59393003",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Hidradenitis suppurativa",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 434119,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "69741000",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Hidradenitis",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      }
+    ]},
+    "name": "Hidradenitis suppurativa",
+    "id": 0
+  }],
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [],
+  "AdditionalCriteria": {
+    "CriteriaList": [{
+      "RestrictVisit": false,
+      "StartWindow": {
+        "UseEventEnd": false,
+        "Start": {
+          "Days": 31,
+          "Coeff": 1
+        },
+        "End": {
+          "Days": 365,
+          "Coeff": 1
+        },
+        "UseIndexEnd": false
+      },
+      "IgnoreObservationPeriod": false,
+      "Criteria": {"ConditionOccurrence": {
+        "ConditionTypeExclude": false,
+        "CodesetId": 0
+      }},
+      "Occurrence": {
+        "Type": 2,
+        "IsDistinct": false,
+        "Count": 1
+      }
+    }],
+    "Type": "ALL",
+    "DemographicCriteriaList": [],
+    "Groups": []
+  },
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [],
+  "PrimaryCriteria": {
+    "CriteriaList": [{"ConditionOccurrence": {
+      "ConditionTypeExclude": false,
+      "CodesetId": 0,
+      "First": true
+    }}],
+    "PrimaryCriteriaLimit": {"Type": "First"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 365
+    }
+  }
+}
