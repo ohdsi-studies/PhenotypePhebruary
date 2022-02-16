@@ -27,12 +27,7 @@ atlasId,cohortId,id,cohortName
 114,114,114,[Phenotype Phebruary][Delirium] All events of inpatient visit with Confusional state
 115,115,115,"[Phenotype Phebruary][Delirium] All event of Confessional state, with 14d era gap"
 116,116,116,[Phenotype Phebruary][Delirium] All events of inpatient visit with Delirium
-138,138,138,[Phenotype Phebruary][HTN] Hypertensive disorder not limited to essential
-136,136,136,[Phenotype Phebruary][HTN] Essential Hypertension no exclusions
-135,135,135,[Phenotype Phebruary][HTN] Essential Hypertension exclude secondary causes
-139,139,139,[Phenotype Phebruary][HTN] Secondary Hypertension or Crisis - sudden onset
 140,140,140,[Phenotype Phebruary][HTN] Secondary Hypertension or Crisis - first time
-141,141,141,[Phenotype Phebruary][HTN] Essential Hypertension exclude secondary causes - no diagnosis after 3mth
 118,118,118,"[Phenotype Phebruary][Delirium] All events of inpatient visit with Delirium, by McCoy et.al"
 119,119,119,[PhenotypePhebruary][SLE] Systemic lupus erythematosus incident and correction for index date
 120,120,120,[PhenotypePhebruary][SLE] Systemic lupus erythematosus incident with 2nd dx and corr. for index date
@@ -49,3 +44,25 @@ atlasId,cohortId,id,cohortName
 132,132,132,[Phenotype Phebruary][PD] Persons with Parkinson's disease - Wu probable
 133,133,133,[Phenotype Phebruary][ADHD] New users of Attention Deficit Hyperactivity Disorder drugs
 134,134,134,[Phenotype Phebruary][ADHD] Persons with Attention Deficit Hyperactivity Disorder
+138,138,138,[Phenotype Phebruary][HTN] Hypertensive disorder not limited to essential
+136,136,136,[Phenotype Phebruary][HTN] Essential Hypertension no exclusions
+135,135,135,[Phenotype Phebruary][HTN] Essential Hypertension exclude secondary causes
+139,139,139,[Phenotype Phebruary][HTN] Secondary Hypertension or Crisis - sudden onset
+141,141,141,[Phenotype Phebruary][HTN] Essential Hypertension exclude secondary causes - no diagnosis after 3mth
+146,146,146,"[Phenotype Phebruary][MI] ST elevated myocardial infarction Not Inpatient (7P, 1E)"
+145,145,145,"[Phenotype Phebruary][MI] ST elevated myocardial infarction Inpatient (7P, 1E)"
+142,142,142,"[Phenotype Phebruary][MI] ST elevated myocardial infarction (7P, 1E)"
+157,157,157,"[Phenotype Phebruary][MI] Angina Pectoris Not Inpatient (7P, 1E)"
+156,156,156,"[Phenotype Phebruary][MI] Angina Pectoris Inpatient (7P, 1E)"
+155,155,155,"[Phenotype Phebruary][MI] Stable Angina Not Inpatient (7P, 1E)"
+154,154,154,"[Phenotype Phebruary][MI] Stable Angina Inpatient (7P, 1E)"
+153,153,153,"[Phenotype Phebruary][MI] Angina Pectoris (7P, 1E)"
+152,152,152,"[Phenotype Phebruary][MI] Unstable Angina No Inpatient (7P, 1E)"
+151,151,151,"[Phenotype Phebruary][MI] Unstable Angina Inpatient (7P, 1E)"
+150,150,150,"[Phenotype Phebruary][MI] Unstable Angina (7P, 1E)"
+149,149,149,"[Phenotype Phebruary][MI] Non ST elevated myocardial infarction No Inpatient (7P, 1E)"
+148,148,148,"[Phenotype Phebruary][MI] Non ST elevated myocardial infarction Inpatient (7P, 1E)"
+147,147,147,"[Phenotype Phebruary][MI] Non ST elevated myocardial infarction (7P, 1E)"
+144,144,144,"[Phenotype Phebruary][MI] Acute myocardial infarction broad (7Ps, 180Era)"
+158,158,158,"[Phenotype Phebruary][MI] Acute myocardial infarction broad with no inpatient admission(7Ps, 180Era)"
+143,143,143,"[Phenotype Phebruary][MI] Acute myocardial infarction broad with inpatient admission (7Ps, 180Era)"

@@ -286,6 +286,27 @@
       }]},
       "name": "Hypertensive Disorder",
       "id": 5
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 21600381,
+          "STANDARD_CONCEPT": "C",
+          "CONCEPT_CODE": "C02",
+          "VOCABULARY_ID": "ATC",
+          "CONCEPT_NAME": "ANTIHYPERTENSIVES",
+          "DOMAIN_ID": "Drug",
+          "STANDARD_CONCEPT_CAPTION": "Classification",
+          "CONCEPT_CLASS_ID": "ATC 2nd",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "Hypertensive Drugs",
+      "id": 6
     }
   ],
   "cdmVersionRange": ">=5.0.0",
