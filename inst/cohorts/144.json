@@ -119,8 +119,8 @@
           "UseEventEnd": false,
           "Start": {"Coeff": -1},
           "End": {
-            "Days": 0,
-            "Coeff": 1
+            "Days": 365,
+            "Coeff": -1
           },
           "UseIndexEnd": false
         },
@@ -129,15 +129,12 @@
           "UseEventEnd": true,
           "Start": {
             "Days": 0,
-            "Coeff": -1
+            "Coeff": 1
           },
           "End": {"Coeff": 1},
           "UseIndexEnd": false
         },
-        "Criteria": {"VisitOccurrence": {
-          "CodesetId": 2,
-          "VisitTypeExclude": false
-        }},
+        "Criteria": {"ObservationPeriod": {}},
         "Occurrence": {
           "Type": 2,
           "IsDistinct": false,
@@ -148,14 +145,14 @@
       "DemographicCriteriaList": [],
       "Groups": []
     },
-    "name": "Inpatient Visit"
+    "name": "has 365d prior observation"
   }],
   "PrimaryCriteria": {
     "CriteriaList": [{"ConditionOccurrence": {
       "ConditionTypeExclude": false,
       "CodesetId": 3
     }}],
-    "PrimaryCriteriaLimit": {"Type": "All"},
+    "PrimaryCriteriaLimit": {"Type": "First"},
     "ObservationWindow": {
       "PostDays": 0,
       "PriorDays": 0
