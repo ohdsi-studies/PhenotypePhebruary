@@ -2,22 +2,21 @@
 library(CohortDiagnostics)
 
 # OHDSI's server:
-connectionDetails <- DatabaseConnector::createConnectionDetails(
-  dbms = "postgresql",
-  server = paste0(Sys.getenv("phenotypeLibraryServer"), "/", Sys.getenv("phenotypeLibrarydb")),
-  port = Sys.getenv("phenotypeLibraryDbPort", unset = 5432),
-  user = Sys.getenv("phenotypeLibrarydbUser"),
-  password = Sys.getenv("phenotypeLibrarydbPw")
+connectionDetails <- createConnectionDetails(
+  dbms = Sys.getenv("shinydbDbms", unset = "postgresql"),
+  server = paste(
+    Sys.getenv("shinydbServer"),
+    Sys.getenv("shinydbDatabase"),
+    sep = "/"
+  ),
+  port = Sys.getenv("shinydbPort"),
+  user = Sys.getenv("shinydbUser"),
+  password = Sys.getenv("shinydbPW")
 )
-resultsSchema <- 'phenotype_phebruary2'
+resultsSchema <- 'phenotype_phebruary'
 
 # commenting this function as it maybe accidentally run - loosing data.
-createResultsDataModel(connectionDetails = connectionDetails, schema = resultsSchema)
-sqlGrant <- "grant select on all tables in schema phenotype_phebruary to phenotypelibrary;"
-connection <- DatabaseConnector::renderTranslateExecuteSql(connection = DatabaseConnector::connect(connectionDetails = connectionDetails))
-DatabaseConnector::renderTranslateExecuteSql(connection = connection, sql = sqlGrant)
-DatabaseConnector::disconnect(connection)
-
+# createResultsDataModel(connectionDetails = connectionDetails, schema = resultsSchema)
 
 Sys.setenv("POSTGRES_PATH" = Sys.getenv('POSTGRES_PATH'))
 
@@ -29,11 +28,6 @@ listOfZipFilesToUpload <-
     full.names = TRUE,
     recursive = TRUE
   )
-
-listOfZipFilesToUpload <-
-  listOfZipFilesToUpload[stringr::str_detect(string = listOfZipFilesToUpload,
-                                             pattern = "optum",
-                                             negate = TRUE)]
 
 for (i in (1:length(listOfZipFilesToUpload))) {
   CohortDiagnostics::uploadResults(

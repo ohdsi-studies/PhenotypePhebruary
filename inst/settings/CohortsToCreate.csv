@@ -42,18 +42,17 @@ atlasId,cohortId,id,cohortName
 127,127,127,[Phenotype Phebruary] [HS]Hidradenitis suppurativa prevalent codes Kim 2 codes
 128,128,128,[Phenotype Phebruary] [HS] Hidradenitis suppurativa prevalent codes Kim 5 codes
 129,129,129,[Phenotype Phebruary][HS] Hidradenitis suppurativa incident
-166,166,166,[Phenotype Phebruary][CM] Cardiomyopathy (broad)
 130,130,130,[Phenotype Phebruary][PD] Persons with Parkinson's disease - Wu definite
 131,131,131,[Phenotype Phebruary][PD] Persons with Parkinson's disease - Wu possible
 132,132,132,[Phenotype Phebruary][PD] Persons with Parkinson's disease - Wu probable
 133,133,133,[Phenotype Phebruary][ADHD] New users of Attention Deficit Hyperactivity Disorder drugs
 134,134,134,[Phenotype Phebruary][ADHD] Persons with Attention Deficit Hyperactivity Disorder
-167,167,167,[Phenotype Phebruary][CM] Cardiomyopathy (primary broad)
+166,166,166,[Phenotype Phebruary][CM] Cardiomyopathy (broad)
 138,138,138,[Phenotype Phebruary][HTN] Hypertensive disorder not limited to essential
 136,136,136,[Phenotype Phebruary][HTN] Essential Hypertension no exclusions
 135,135,135,[Phenotype Phebruary][HTN] Essential Hypertension exclude secondary causes
 139,139,139,[Phenotype Phebruary][HTN] Secondary Hypertension or Crisis - sudden onset
-168,168,168,[Phenotype Phebruary][CM] Dilated Cardiomyopathy (primary)
+167,167,167,[Phenotype Phebruary][CM] Cardiomyopathy (primary broad)
 141,141,141,[Phenotype Phebruary][HTN] Essential Hypertension exclude secondary causes - no diagnosis after 3mth
 146,146,146,"[Phenotype Phebruary][MI] ST elevated myocardial infarction Not Inpatient (7P, 1E)"
 145,145,145,"[Phenotype Phebruary][MI] ST elevated myocardial infarction Inpatient (7P, 1E)"
@@ -75,4 +74,6 @@ atlasId,cohortId,id,cohortName
 162,162,162,"[Phenotype Phebruary][HF] Cor Pulmonale (3Pe, 30Era)"
 163,163,163,"[Phenotype Phebruary][HF] Cor Pulmonale with inpatient or ER visit (3Pe, 30Era)"
 164,164,164,"[Phenotype Phebruary][HF] Cor Pulmonale with no inpatient or ER visit (3Pe, 30Era)"
-169,169,169,[Phenotype Phebruary][CM] Hypertrophic Cardiomyopathy (primary)
+169,169,169,[Phenotype Phebruary][CM] Hypertrophic Cardiomyopathy
+168,168,168,[Phenotype Phebruary][CM] Dilated Cardiomyopathy
+170,170,170,[Phenotype Phebruary][CM] Takotsubo cardiomyopathy

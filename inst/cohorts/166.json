@@ -1651,6 +1651,27 @@
       ]},
       "name": "Cardiomyopathy",
       "id": 38
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 40479589,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "441541008",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Takotsubo cardiomyopathy",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "Takotsubo cardiomyopathy",
+      "id": 39
     }
   ],
   "EndStrategy": {"DateOffset": {
