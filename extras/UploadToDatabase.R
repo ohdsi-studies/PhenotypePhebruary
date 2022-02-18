@@ -1,4 +1,6 @@
 # Using the official uploading functions to get data from zip files into the postgres database
+remotes::install_github("OHDSI/CohortDiagnostics")
+
 library(CohortDiagnostics)
 
 # OHDSI's server:
@@ -47,5 +49,5 @@ for (i in (1:length(listOfZipFilesToUpload))) {
 # uploadPrintFriendly(connectionDetails = connectionDetails,
 #                     schema = resultsSchema)
 
-launchDiagnosticsExplorer(connectionDetails = connectionDetails,
-                          resultsDatabaseSchema = resultsSchema)
+# launchDiagnosticsExplorer(connectionDetails = connectionDetails,
+#                           resultsDatabaseSchema = resultsSchema)
