@@ -2,7 +2,7 @@
   "ExpressionLimit": {"Type": "First"},
   "CollapseSettings": {
     "CollapseType": "ERA",
-    "EraPad": 1
+    "EraPad": 30
   },
   "CensorWindow": {},
   "ConceptSets": [
@@ -1577,11 +1577,147 @@
       ]},
       "name": "Inpatient visit",
       "id": 37
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 321319,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "85898001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cardiomyopathy",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 36712927,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "15629541000119106",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Congestive heart failure stage C due to ischemic cardiomyopathy",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 36712928,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "15629591000119103",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Congestive heart failure stage B due to ischemic cardiomyopathy",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 44782428,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "101281000119107",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Congestive heart failure due to cardiomyopathy",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "Cardiomyopathy",
+      "id": 38
+    },
+    {
+      "expression": {"items": []},
+      "name": "Unnamed Concept Set",
+      "id": 39
+    },
+    {
+      "expression": {"items": []},
+      "name": "Unnamed Concept Set",
+      "id": 40
+    },
+    {
+      "expression": {"items": []},
+      "name": "Unnamed Concept Set",
+      "id": 41
+    },
+    {
+      "expression": {"items": []},
+      "name": "Unnamed Concept Set",
+      "id": 42
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4163710,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "399020009",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Dilated cardiomyopathy",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "Dilated Cardiomyopathy",
+      "id": 43
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 316428,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "45227007",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Hypertrophic obstructive cardiomyopathy",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "Hypertrophic Cardiomyopathy",
+      "id": 44
     }
   ],
   "EndStrategy": {"DateOffset": {
     "DateField": "EndDate",
-    "Offset": 7
+    "Offset": 30
   }},
   "cdmVersionRange": ">=5.0.0",
   "CensoringCriteria": [],
@@ -1625,6 +1761,112 @@
     },
     {
       "expression": {
+        "CriteriaList": [
+          {
+            "RestrictVisit": false,
+            "StartWindow": {
+              "UseEventEnd": false,
+              "Start": {"Coeff": -1},
+              "End": {
+                "Days": 1,
+                "Coeff": -1
+              },
+              "UseIndexEnd": false
+            },
+            "IgnoreObservationPeriod": false,
+            "Criteria": {"ConditionOccurrence": {
+              "ConditionTypeExclude": false,
+              "CodesetId": 31
+            }},
+            "Occurrence": {
+              "Type": 0,
+              "IsDistinct": false,
+              "Count": 0
+            }
+          },
+          {
+            "RestrictVisit": false,
+            "StartWindow": {
+              "UseEventEnd": false,
+              "Start": {"Coeff": -1},
+              "End": {
+                "Days": 1,
+                "Coeff": -1
+              },
+              "UseIndexEnd": false
+            },
+            "IgnoreObservationPeriod": false,
+            "Criteria": {"ConditionOccurrence": {
+              "ConditionTypeExclude": false,
+              "CodesetId": 4
+            }},
+            "Occurrence": {
+              "Type": 0,
+              "IsDistinct": false,
+              "Count": 0
+            }
+          },
+          {
+            "RestrictVisit": false,
+            "StartWindow": {
+              "UseEventEnd": false,
+              "Start": {"Coeff": -1},
+              "End": {
+                "Days": 1,
+                "Coeff": -1
+              },
+              "UseIndexEnd": false
+            },
+            "IgnoreObservationPeriod": false,
+            "Criteria": {"ConditionOccurrence": {
+              "ConditionTypeExclude": false,
+              "CodesetId": 1
+            }},
+            "Occurrence": {
+              "Type": 0,
+              "IsDistinct": false,
+              "Count": 0
+            }
+          }
+        ],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": []
+      },
+      "name": "No history of hypertension"
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {"Coeff": -1},
+            "End": {
+              "Days": 1,
+              "Coeff": -1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "Criteria": {"ConditionOccurrence": {
+            "ConditionTypeExclude": false,
+            "CodesetId": 35
+          }},
+          "Occurrence": {
+            "Type": 0,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": []
+      },
+      "name": "No history of arrythmia"
+    },
+    {
+      "expression": {
         "CriteriaList": [{
           "RestrictVisit": false,
           "StartWindow": {
@@ -1637,36 +1879,57 @@
             "UseIndexEnd": false
           },
           "IgnoreObservationPeriod": false,
-          "EndWindow": {
-            "UseEventEnd": true,
-            "Start": {
-              "Days": 0,
-              "Coeff": 1
-            },
-            "End": {"Coeff": 1},
-            "UseIndexEnd": false
-          },
-          "Criteria": {"VisitOccurrence": {
-            "CodesetId": 37,
-            "VisitTypeExclude": false
+          "Criteria": {"ConditionOccurrence": {
+            "ConditionTypeExclude": false,
+            "CodesetId": 36
           }},
           "Occurrence": {
-            "Type": 2,
+            "Type": 0,
             "IsDistinct": false,
-            "Count": 1
+            "Count": 0
           }
         }],
         "Type": "ALL",
         "DemographicCriteriaList": [],
         "Groups": []
       },
-      "name": "Inpatient admission"
+      "name": "No history of myocardial infarction"
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {"Coeff": -1},
+            "End": {
+              "Days": 1,
+              "Coeff": -1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "Criteria": {"ConditionOccurrence": {
+            "ConditionTypeExclude": false,
+            "CodesetId": 24
+          }},
+          "Occurrence": {
+            "Type": 0,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": []
+      },
+      "name": "No history of Congestive Heart Failure"
     }
   ],
   "PrimaryCriteria": {
     "CriteriaList": [{"ConditionOccurrence": {
       "ConditionTypeExclude": false,
-      "CodesetId": 36,
+      "CodesetId": 38,
       "First": true
     }}],
     "PrimaryCriteriaLimit": {"Type": "First"},

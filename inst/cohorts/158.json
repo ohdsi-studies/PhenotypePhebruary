@@ -1632,7 +1632,7 @@
             "Start": {"Coeff": -1},
             "End": {
               "Days": 0,
-              "Coeff": 1
+              "Coeff": -1
             },
             "UseIndexEnd": false
           },
@@ -1641,7 +1641,7 @@
             "UseEventEnd": true,
             "Start": {
               "Days": 0,
-              "Coeff": -1
+              "Coeff": 1
             },
             "End": {"Coeff": 1},
             "UseIndexEnd": false
@@ -1666,7 +1666,8 @@
   "PrimaryCriteria": {
     "CriteriaList": [{"ConditionOccurrence": {
       "ConditionTypeExclude": false,
-      "CodesetId": 36
+      "CodesetId": 36,
+      "First": true
     }}],
     "PrimaryCriteriaLimit": {"Type": "First"},
     "ObservationWindow": {

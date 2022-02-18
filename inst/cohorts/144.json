@@ -150,7 +150,8 @@
   "PrimaryCriteria": {
     "CriteriaList": [{"ConditionOccurrence": {
       "ConditionTypeExclude": false,
-      "CodesetId": 3
+      "CodesetId": 3,
+      "First": true
     }}],
     "PrimaryCriteriaLimit": {"Type": "First"},
     "ObservationWindow": {
