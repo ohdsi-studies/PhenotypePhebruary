@@ -1653,6 +1653,26 @@
       "id": 38
     },
     {
+      "expression": {"items": []},
+      "name": "Unnamed Concept Set",
+      "id": 39
+    },
+    {
+      "expression": {"items": []},
+      "name": "Unnamed Concept Set",
+      "id": 40
+    },
+    {
+      "expression": {"items": []},
+      "name": "Unnamed Concept Set",
+      "id": 41
+    },
+    {
+      "expression": {"items": []},
+      "name": "Unnamed Concept Set",
+      "id": 42
+    },
+    {
       "expression": {"items": [{
         "isExcluded": false,
         "concept": {
@@ -1672,27 +1692,6 @@
       }]},
       "name": "Dilated Cardiomyopathy",
       "id": 43
-    },
-    {
-      "expression": {"items": [{
-        "isExcluded": false,
-        "concept": {
-          "INVALID_REASON_CAPTION": "Valid",
-          "CONCEPT_ID": 40479589,
-          "STANDARD_CONCEPT": "S",
-          "CONCEPT_CODE": "441541008",
-          "VOCABULARY_ID": "SNOMED",
-          "CONCEPT_NAME": "Takotsubo cardiomyopathy",
-          "DOMAIN_ID": "Condition",
-          "STANDARD_CONCEPT_CAPTION": "Standard",
-          "CONCEPT_CLASS_ID": "Clinical Finding",
-          "INVALID_REASON": "V"
-        },
-        "includeMapped": false,
-        "includeDescendants": true
-      }]},
-      "name": "Takotsubo cardiomyopathy",
-      "id": 44
     }
   ],
   "EndStrategy": {"DateOffset": {
@@ -1909,7 +1908,7 @@
   "PrimaryCriteria": {
     "CriteriaList": [{"ConditionOccurrence": {
       "ConditionTypeExclude": false,
-      "CodesetId": 43,
+      "CodesetId": 38,
       "First": true
     }}],
     "PrimaryCriteriaLimit": {"Type": "First"},

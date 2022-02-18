@@ -188,7 +188,7 @@
         "ValueAsNumber": {
           "Op": "bt",
           "Extent": 0.5,
-          "Value": 0.01
+          "Value": 0.010000000000000000208167
         },
         "Unit": [
           {
