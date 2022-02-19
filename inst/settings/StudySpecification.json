@@ -8,7 +8,7 @@
   "createdBy": "rao@ohdsi.org",
   "cohortDefinitions": [
     {
-      "createdDate": 1.64367396032E9,
+      "createdDate": 1643673960.3199999332428,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -244,12 +244,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.64367396032E9,
+      "modifiedDate": 1643673960.3199999332428,
       "name": "[PhenotypePhebruary][T2DM] Persons with new type 2 diabetes mellitus at first diagnosis",
       "id": 88
     },
     {
-      "createdDate": 1.643803155048E9,
+      "createdDate": 1643803155.0480000972748,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -627,12 +627,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.643803155048E9,
+      "modifiedDate": 1643803155.0480000972748,
       "name": "[PhenotypePhebruary][T1DM] Persons with new type 1 diabetes and no prior T2DM or secondary diabetes",
       "id": 91
     },
     {
-      "createdDate": 1.643674014162E9,
+      "createdDate": 1643674014.1619999408722,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -1010,12 +1010,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.643674014162E9,
+      "modifiedDate": 1643674014.1619999408722,
       "name": "[PhenotypePhebruary][T2DM] Persons with new type 2 diabetes and no prior T1DM or secondary diabetes",
       "id": 89
     },
     {
-      "createdDate": 1.643674051894E9,
+      "createdDate": 1643674051.8940000534058,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -1535,12 +1535,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.643674051894E9,
+      "modifiedDate": 1643674051.8940000534058,
       "name": "[PhenotypePhebruary][T2DM] Persons with new type 2 diabetes mellitus at first dx rx or lab",
       "id": 90
     },
     {
-      "createdDate": 1.643803201765E9,
+      "createdDate": 1643803201.7650001049042,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -1657,12 +1657,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.643803201765E9,
+      "modifiedDate": 1643803201.7650001049042,
       "name": "[PhenotypePhebruary][T1DM] Persons with new type 1 diabetes",
       "id": 92
     },
     {
-      "createdDate": 1.643951559748E9,
+      "createdDate": 1643951559.7479999065399,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -1713,12 +1713,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.643951559748E9,
+      "modifiedDate": 1643951559.7479999065399,
       "name": "[PhenotypePhebruary][AFib] Persons with atrial fibrillation per Wharton et al 2021",
       "id": 93
     },
     {
-      "createdDate": 1.643951748798E9,
+      "createdDate": 1643951748.7980000972748,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -2007,12 +2007,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.643951748798E9,
+      "modifiedDate": 1643951748.7980000972748,
       "name": "[PhenotypePhebruary][AFib] Persons with atrial fibrillation per Subramanya et al 2021",
       "id": 94
     },
     {
-      "createdDate": 1.644116916186E9,
+      "createdDate": 1644116916.1860001087189,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -2090,12 +2090,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644116916186E9,
+      "modifiedDate": 1644116916.1860001087189,
       "name": "[Phenotype Phebruary][Alz] Persons with Alzheimers disease indexed on 1st dx with 2nd dx in 365d",
       "id": 101
     },
     {
-      "createdDate": 1.644034615288E9,
+      "createdDate": 1644034615.2880001068115,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -2191,12 +2191,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644034615288E9,
+      "modifiedDate": 1644034615.2880001068115,
       "name": "[Phenotype Phebruary][MM] Persons with Multiple Myeloma (Brandenburg #1- 2 diagnosis codes)",
       "id": 96
     },
     {
-      "createdDate": 1.644035232846E9,
+      "createdDate": 1644035232.845999956131,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -2570,12 +2570,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644035232846E9,
+      "modifiedDate": 1644035232.845999956131,
       "name": "[Phenotype Phebruary][MM] Persons with Multiple Myeloma (Brandenburg #2- 2 dx + 1 diagnostic proc)",
       "id": 97
     },
     {
-      "createdDate": 1.644039920277E9,
+      "createdDate": 1644039920.2769999504089,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -3259,12 +3259,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644039920277E9,
+      "modifiedDate": 1644039920.2769999504089,
       "name": "[Phenotype Phebruary][MM] Persons with Multiple Myeloma (Brandenburg #3- 2 dx + 1 proc + 1 rx)",
       "id": 98
     },
     {
-      "createdDate": 1.644039986425E9,
+      "createdDate": 1644039986.4249999523163,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -3706,12 +3706,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644039986425E9,
+      "modifiedDate": 1644039986.4249999523163,
       "name": "[Phenotype Phebruary][MM] Persons with Multiple Myeloma (Brandenburg #4- 2 dx+1 proc+ lt2 MGUS dx)",
       "id": 99
     },
     {
-      "createdDate": 1.644368026011E9,
+      "createdDate": 1644368026.010999917984,
       "expression": {
         "ExpressionLimit": {"Type": "All"},
         "CollapseSettings": {
@@ -3780,12 +3780,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644368026011E9,
+      "modifiedDate": 1644368026.010999917984,
       "name": "[Phenotype Phebruary][Kidney stones] Kidney stone events with 30d era gap",
       "id": 110
     },
     {
-      "createdDate": 1.644116694089E9,
+      "createdDate": 1644116694.0889999866486,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -3832,12 +3832,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644116694089E9,
+      "modifiedDate": 1644116694.0889999866486,
       "name": "[Phenotype Phebruary][Alz] Persons with Alzheimers disease indexed at 1st dx",
       "id": 100
     },
     {
-      "createdDate": 1.644117327862E9,
+      "createdDate": 1644117327.8619999885559,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -4175,12 +4175,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644117327862E9,
+      "modifiedDate": 1644117327.8619999885559,
       "name": "[Phenotype Phebruary][Alz] Persons with dementia indexed at 1st dx",
       "id": 102
     },
     {
-      "createdDate": 1.644117412229E9,
+      "createdDate": 1644117412.2290000915527,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -4549,12 +4549,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644117412229E9,
+      "modifiedDate": 1644117412.2290000915527,
       "name": "[Phenotype Phebruary][Alz] Persons with dementia indexed at 1st dx with 2nd dx in 365d",
       "id": 103
     },
     {
-      "createdDate": 1.644189315213E9,
+      "createdDate": 1644189315.2130000591278,
       "expression": {
         "ExpressionLimit": {"Type": "All"},
         "CollapseSettings": {
@@ -12670,12 +12670,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644189315213E9,
+      "modifiedDate": 1644189315.2130000591278,
       "name": "[Phenotype Phebruary][Bleed] Bleeding-related hospitalizations",
       "id": 104
     },
     {
-      "createdDate": 1.644189931098E9,
+      "createdDate": 1644189931.0980000495911,
       "expression": {
         "ExpressionLimit": {"Type": "All"},
         "CollapseSettings": {
@@ -18054,12 +18054,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644189931098E9,
+      "modifiedDate": 1644189931.0980000495911,
       "name": "[Phenotype Phebruary][Bleed] Bleeding-related hospitalizations with definite codes in any position",
       "id": 105
     },
     {
-      "createdDate": 1.64418998071E9,
+      "createdDate": 1644189980.710000038147,
       "expression": {
         "ExpressionLimit": {"Type": "All"},
         "CollapseSettings": {
@@ -23402,12 +23402,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.64418998071E9,
+      "modifiedDate": 1644189980.710000038147,
       "name": "[Phenotype Phebruary][Bleed] Bleeding-related events",
       "id": 106
     },
     {
-      "createdDate": 1.644290740602E9,
+      "createdDate": 1644290740.6019999980927,
       "expression": {
         "ExpressionLimit": {"Type": "All"},
         "CollapseSettings": {
@@ -23522,7 +23522,7 @@
               "ValueAsNumber": {
                 "Op": "bt",
                 "Extent": 0.5,
-                "Value": 0.01
+                "Value": 0.010000000000000000208167
               },
               "Unit": [
                 {
@@ -23605,12 +23605,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644290740602E9,
+      "modifiedDate": 1644290740.6019999980927,
       "name": "[Phenotype Phebruary][Neutropenia] Neutropenia events by lab values",
       "id": 108
     },
     {
-      "createdDate": 1.644290776059E9,
+      "createdDate": 1644290776.0590000152588,
       "expression": {
         "ExpressionLimit": {"Type": "All"},
         "CollapseSettings": {
@@ -23801,7 +23801,7 @@
               "ValueAsNumber": {
                 "Op": "bt",
                 "Extent": 0.5,
-                "Value": 0.01
+                "Value": 0.010000000000000000208167
               },
               "Unit": [
                 {
@@ -23888,12 +23888,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644290776059E9,
+      "modifiedDate": 1644290776.0590000152588,
       "name": "[Phenotype Phebruary][Neutropenia] Neutropenia events by lab values or diagnosis",
       "id": 109
     },
     {
-      "createdDate": 1.644290382615E9,
+      "createdDate": 1644290382.6150000095367,
       "expression": {
         "ExpressionLimit": {"Type": "All"},
         "CollapseSettings": {
@@ -23996,12 +23996,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644290382615E9,
+      "modifiedDate": 1644290382.6150000095367,
       "name": "[Phenotype Phebruary][Neutropenia] Neutropenia events by diagnosis",
       "id": 107
     },
     {
-      "createdDate": 1.644368062191E9,
+      "createdDate": 1644368062.1909999847412,
       "expression": {
         "ExpressionLimit": {"Type": "All"},
         "CollapseSettings": {
@@ -24070,12 +24070,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644368062191E9,
+      "modifiedDate": 1644368062.1909999847412,
       "name": "[Phenotype Phebruary][Kidney stones] Kidney stone events with 90d era gap",
       "id": 111
     },
     {
-      "createdDate": 1.64436810031E9,
+      "createdDate": 1644368100.3099999427795,
       "expression": {
         "ExpressionLimit": {"Type": "All"},
         "CollapseSettings": {
@@ -24144,12 +24144,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.64436810031E9,
+      "modifiedDate": 1644368100.3099999427795,
       "name": "[Phenotype Phebruary][Kidney stones] Kidney stone events with 365d era gap",
       "id": 112
     },
     {
-      "createdDate": 1.644422790916E9,
+      "createdDate": 1644422790.9159998893738,
       "expression": {
         "ExpressionLimit": {"Type": "All"},
         "CollapseSettings": {
@@ -24345,12 +24345,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644422790916E9,
+      "modifiedDate": 1644422790.9159998893738,
       "name": "[Phenotype Phebruary][Delirium] All event of Delirium, with 14d era gap",
       "id": 113
     },
     {
-      "createdDate": 1.644423369404E9,
+      "createdDate": 1644423369.404000043869,
       "expression": {
         "ExpressionLimit": {"Type": "All"},
         "CollapseSettings": {
@@ -24582,12 +24582,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644423369404E9,
+      "modifiedDate": 1644423369.404000043869,
       "name": "[Phenotype Phebruary][Delirium] All events of inpatient visit with Confusional state",
       "id": 114
     },
     {
-      "createdDate": 1.644423787842E9,
+      "createdDate": 1644423787.8420000076294,
       "expression": {
         "ExpressionLimit": {"Type": "All"},
         "CollapseSettings": {
@@ -24741,12 +24741,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644423787842E9,
+      "modifiedDate": 1644423787.8420000076294,
       "name": "[Phenotype Phebruary][Delirium] All event of Confessional state, with 14d era gap",
       "id": 115
     },
     {
-      "createdDate": 1.644424054164E9,
+      "createdDate": 1644424054.1640000343323,
       "expression": {
         "ExpressionLimit": {"Type": "All"},
         "CollapseSettings": {
@@ -24978,12 +24978,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644424054164E9,
+      "modifiedDate": 1644424054.1640000343323,
       "name": "[Phenotype Phebruary][Delirium] All events of inpatient visit with Delirium",
       "id": 116
     },
     {
-      "createdDate": 1.644959234588E9,
+      "createdDate": 1644959234.5880000591278,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -25147,12 +25147,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644959234588E9,
+      "modifiedDate": 1644959234.5880000591278,
       "name": "[Phenotype Phebruary][MI] Acute myocardial infarction (7Ps, 180Era)",
       "id": 144
     },
     {
-      "createdDate": 1.644959211053E9,
+      "createdDate": 1644959211.0529999732971,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -26832,12 +26832,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644959211053E9,
+      "modifiedDate": 1644959211.0529999732971,
       "name": "[Phenotype Phebruary][MI] Acute myocardial infarction broad with inpatient admission (7Ps, 180Era)",
       "id": 143
     },
     {
-      "createdDate": 1.644886369613E9,
+      "createdDate": 1644886369.6129999160767,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -27191,12 +27191,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644886369613E9,
+      "modifiedDate": 1644886369.6129999160767,
       "name": "[Phenotype Phebruary][HTN] Secondary Hypertension or Crisis - first time",
       "id": 140
     },
     {
-      "createdDate": 1.644983721945E9,
+      "createdDate": 1644983721.9449999332428,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -28876,12 +28876,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644983721945E9,
+      "modifiedDate": 1644983721.9449999332428,
       "name": "[Phenotype Phebruary][MI] Acute myocardial infarction broad with no inpatient admission(7Ps, 180Era)",
       "id": 158
     },
     {
-      "createdDate": 1.64443551297E9,
+      "createdDate": 1644435512.9700000286102,
       "expression": {
         "ExpressionLimit": {"Type": "All"},
         "CollapseSettings": {
@@ -29288,12 +29288,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.64443551297E9,
+      "modifiedDate": 1644435512.9700000286102,
       "name": "[Phenotype Phebruary][Delirium] All events of inpatient visit with Delirium, by McCoy et.al",
       "id": 118
     },
     {
-      "createdDate": 1.64449530115E9,
+      "createdDate": 1644495301.1500000953674,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -29933,12 +29933,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.64449530115E9,
+      "modifiedDate": 1644495301.1500000953674,
       "name": "[PhenotypePhebruary][SLE] Systemic lupus erythematosus incident and correction for index date",
       "id": 119
     },
     {
-      "createdDate": 1.644495339458E9,
+      "createdDate": 1644495339.4579999446869,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -30638,12 +30638,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644495339458E9,
+      "modifiedDate": 1644495339.4579999446869,
       "name": "[PhenotypePhebruary][SLE] Systemic lupus erythematosus incident with 2nd dx and corr. for index date",
       "id": 120
     },
     {
-      "createdDate": 1.644495374256E9,
+      "createdDate": 1644495374.2560000419617,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -31283,12 +31283,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644495374256E9,
+      "modifiedDate": 1644495374.2560000419617,
       "name": "[Phenotype Phebruary][SLE] Systemic lupus erythematosus prevalent and correction for index date",
       "id": 121
     },
     {
-      "createdDate": 1.644495403599E9,
+      "createdDate": 1644495403.5989999771118,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -31988,12 +31988,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644495403599E9,
+      "modifiedDate": 1644495403.5989999771118,
       "name": "[Phenotype Phebruary][SLE] Systemic lupus erythematosus prev. with 2nd dx and corr. for index date",
       "id": 122
     },
     {
-      "createdDate": 1.644621681175E9,
+      "createdDate": 1644621681.1749999523163,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -32089,12 +32089,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644621681175E9,
+      "modifiedDate": 1644621681.1749999523163,
       "name": "[Phenotype Phebruary] [HS] Hidradenitis suppurativa incident with 2nd code 31 to 365 days post index",
       "id": 124
     },
     {
-      "createdDate": 1.644621704122E9,
+      "createdDate": 1644621704.1219999790192,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -32159,12 +32159,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644621704122E9,
+      "modifiedDate": 1644621704.1219999790192,
       "name": "[Phenotype Phebruary] [HS] Hidradenitis suppurativa prevalent",
       "id": 125
     },
     {
-      "createdDate": 1.644621723808E9,
+      "createdDate": 1644621723.808000087738,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -32259,12 +32259,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644621723808E9,
+      "modifiedDate": 1644621723.808000087738,
       "name": "[Phenotype Phebruary][HS] Hidradenitis suppurativa prevalent with 2nd code 31 to 365 days post index",
       "id": 126
     },
     {
-      "createdDate": 1.64462174219E9,
+      "createdDate": 1644621742.1900000572205,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -32356,12 +32356,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.64462174219E9,
+      "modifiedDate": 1644621742.1900000572205,
       "name": "[Phenotype Phebruary] [HS]Hidradenitis suppurativa prevalent codes Kim 2 codes",
       "id": 127
     },
     {
-      "createdDate": 1.644621759142E9,
+      "createdDate": 1644621759.1419999599457,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -32453,12 +32453,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644621759142E9,
+      "modifiedDate": 1644621759.1419999599457,
       "name": "[Phenotype Phebruary] [HS] Hidradenitis suppurativa prevalent codes Kim 5 codes",
       "id": 128
     },
     {
-      "createdDate": 1.644621778823E9,
+      "createdDate": 1644621778.8229999542236,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -32524,12 +32524,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644621778823E9,
+      "modifiedDate": 1644621778.8229999542236,
       "name": "[Phenotype Phebruary][HS] Hidradenitis suppurativa incident",
       "id": 129
     },
     {
-      "createdDate": 1.644686912633E9,
+      "createdDate": 1644686912.6329998970032,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -33301,12 +33301,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644686912633E9,
+      "modifiedDate": 1644686912.6329998970032,
       "name": "[Phenotype Phebruary][PD] Persons with Parkinson's disease - Wu definite",
       "id": 130
     },
     {
-      "createdDate": 1.644686962723E9,
+      "createdDate": 1644686962.7230000495911,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -33906,12 +33906,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644686962723E9,
+      "modifiedDate": 1644686962.7230000495911,
       "name": "[Phenotype Phebruary][PD] Persons with Parkinson's disease - Wu possible",
       "id": 131
     },
     {
-      "createdDate": 1.644687041519E9,
+      "createdDate": 1644687041.5190000534058,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -34656,12 +34656,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644687041519E9,
+      "modifiedDate": 1644687041.5190000534058,
       "name": "[Phenotype Phebruary][PD] Persons with Parkinson's disease - Wu probable",
       "id": 132
     },
     {
-      "createdDate": 1.644782014871E9,
+      "createdDate": 1644782014.8710000514984,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -34829,12 +34829,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644782014871E9,
+      "modifiedDate": 1644782014.8710000514984,
       "name": "[Phenotype Phebruary][ADHD] New users of Attention Deficit Hyperactivity Disorder drugs",
       "id": 133
     },
     {
-      "createdDate": 1.644783981592E9,
+      "createdDate": 1644783981.5920000076294,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -35136,12 +35136,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644783981592E9,
+      "modifiedDate": 1644783981.5920000076294,
       "name": "[Phenotype Phebruary][ADHD] Persons with Attention Deficit Hyperactivity Disorder",
       "id": 134
     },
     {
-      "createdDate": 1.645147189933E9,
+      "createdDate": 1645147189.933000087738,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -36875,12 +36875,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.645147189933E9,
+      "modifiedDate": 1645147189.933000087738,
       "name": "[Phenotype Phebruary][CM] Cardiomyopathy (broad)",
       "id": 166
     },
     {
-      "createdDate": 1.644886208248E9,
+      "createdDate": 1644886208.2479999065399,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -37244,12 +37244,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644886208248E9,
+      "modifiedDate": 1644886208.2479999065399,
       "name": "[Phenotype Phebruary][HTN] Hypertensive disorder not limited to essential",
       "id": 138
     },
     {
-      "createdDate": 1.644886083977E9,
+      "createdDate": 1644886083.9769999980927,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -37592,12 +37592,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644886083977E9,
+      "modifiedDate": 1644886083.9769999980927,
       "name": "[Phenotype Phebruary][HTN] Essential Hypertension no exclusions",
       "id": 136
     },
     {
-      "createdDate": 1.644885329021E9,
+      "createdDate": 1644885329.0209999084473,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -38062,12 +38062,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644885329021E9,
+      "modifiedDate": 1644885329.0209999084473,
       "name": "[Phenotype Phebruary][HTN] Essential Hypertension exclude secondary causes",
       "id": 135
     },
     {
-      "createdDate": 1.644886292436E9,
+      "createdDate": 1644886292.4360001087189,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -38478,12 +38478,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644886292436E9,
+      "modifiedDate": 1644886292.4360001087189,
       "name": "[Phenotype Phebruary][HTN] Secondary Hypertension or Crisis - sudden onset",
       "id": 139
     },
     {
-      "createdDate": 1.645152750757E9,
+      "createdDate": 1645152750.7569999694824,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -40385,12 +40385,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.645152750757E9,
+      "modifiedDate": 1645152750.7569999694824,
       "name": "[Phenotype Phebruary][CM] Cardiomyopathy (primary broad)",
       "id": 167
     },
     {
-      "createdDate": 1.644886525419E9,
+      "createdDate": 1644886525.4189999103546,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -40906,12 +40906,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644886525419E9,
+      "modifiedDate": 1644886525.4189999103546,
       "name": "[Phenotype Phebruary][HTN] Essential Hypertension exclude secondary causes - no diagnosis after 3mth",
       "id": 141
     },
     {
-      "createdDate": 1.644981918653E9,
+      "createdDate": 1644981918.6530001163483,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -42626,12 +42626,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644981918653E9,
+      "modifiedDate": 1644981918.6530001163483,
       "name": "[Phenotype Phebruary][MI] ST elevated myocardial infarction Not Inpatient (7P, 1E)",
       "id": 146
     },
     {
-      "createdDate": 1.644981781344E9,
+      "createdDate": 1644981781.3440001010895,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -44346,12 +44346,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644981781344E9,
+      "modifiedDate": 1644981781.3440001010895,
       "name": "[Phenotype Phebruary][MI] ST elevated myocardial infarction Inpatient (7P, 1E)",
       "id": 145
     },
     {
-      "createdDate": 1.644917808563E9,
+      "createdDate": 1644917808.5629999637604,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -46025,12 +46025,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644917808563E9,
+      "modifiedDate": 1644917808.5629999637604,
       "name": "[Phenotype Phebruary][MI] ST elevated myocardial infarction (7P, 1E)",
       "id": 142
     },
     {
-      "createdDate": 1.644982872426E9,
+      "createdDate": 1644982872.4260001182556,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -47850,12 +47850,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644982872426E9,
+      "modifiedDate": 1644982872.4260001182556,
       "name": "[Phenotype Phebruary][MI] Angina Pectoris Not Inpatient (7P, 1E)",
       "id": 157
     },
     {
-      "createdDate": 1.644982854875E9,
+      "createdDate": 1644982854.875,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -49675,12 +49675,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644982854875E9,
+      "modifiedDate": 1644982854.875,
       "name": "[Phenotype Phebruary][MI] Angina Pectoris Inpatient (7P, 1E)",
       "id": 156
     },
     {
-      "createdDate": 1.644982772476E9,
+      "createdDate": 1644982772.4760000705719,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -51500,12 +51500,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644982772476E9,
+      "modifiedDate": 1644982772.4760000705719,
       "name": "[Phenotype Phebruary][MI] Stable Angina Not Inpatient (7P, 1E)",
       "id": 155
     },
     {
-      "createdDate": 1.644982732698E9,
+      "createdDate": 1644982732.6979999542236,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -53325,12 +53325,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644982732698E9,
+      "modifiedDate": 1644982732.6979999542236,
       "name": "[Phenotype Phebruary][MI] Stable Angina Inpatient (7P, 1E)",
       "id": 154
     },
     {
-      "createdDate": 1.644982668476E9,
+      "createdDate": 1644982668.4760000705719,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -55120,12 +55120,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644982668476E9,
+      "modifiedDate": 1644982668.4760000705719,
       "name": "[Phenotype Phebruary][MI] Angina Pectoris (7P, 1E)",
       "id": 153
     },
     {
-      "createdDate": 1.644982617752E9,
+      "createdDate": 1644982617.7520000934601,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -56924,12 +56924,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644982617752E9,
+      "modifiedDate": 1644982617.7520000934601,
       "name": "[Phenotype Phebruary][MI] Unstable Angina No Inpatient (7P, 1E)",
       "id": 152
     },
     {
-      "createdDate": 1.644982567387E9,
+      "createdDate": 1644982567.3870000839233,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -58728,12 +58728,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644982567387E9,
+      "modifiedDate": 1644982567.3870000839233,
       "name": "[Phenotype Phebruary][MI] Unstable Angina Inpatient (7P, 1E)",
       "id": 151
     },
     {
-      "createdDate": 1.644982452943E9,
+      "createdDate": 1644982452.9430000782013,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -60493,12 +60493,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644982452943E9,
+      "modifiedDate": 1644982452.9430000782013,
       "name": "[Phenotype Phebruary][MI] Unstable Angina (7P, 1E)",
       "id": 150
     },
     {
-      "createdDate": 1.644982420718E9,
+      "createdDate": 1644982420.7179999351501,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -62237,12 +62237,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644982420718E9,
+      "modifiedDate": 1644982420.7179999351501,
       "name": "[Phenotype Phebruary][MI] Non ST elevated myocardial infarction No Inpatient (7P, 1E)",
       "id": 149
     },
     {
-      "createdDate": 1.644982109535E9,
+      "createdDate": 1644982109.5350000858307,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -63981,12 +63981,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644982109535E9,
+      "modifiedDate": 1644982109.5350000858307,
       "name": "[Phenotype Phebruary][MI] Non ST elevated myocardial infarction Inpatient (7P, 1E)",
       "id": 148
     },
     {
-      "createdDate": 1.644981948888E9,
+      "createdDate": 1644981948.8880000114441,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -65686,12 +65686,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.644981948888E9,
+      "modifiedDate": 1644981948.8880000114441,
       "name": "[Phenotype Phebruary][MI] Non ST elevated myocardial infarction (7P, 1E)",
       "id": 147
     },
     {
-      "createdDate": 1.645016836275E9,
+      "createdDate": 1645016836.2750000953674,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -67964,12 +67964,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.645016836275E9,
+      "modifiedDate": 1645016836.2750000953674,
       "name": "[Phenotype Phebruary][HF] Heart failure with no inpatient or ER visit (3Pe, 30Era)",
       "id": 161
     },
     {
-      "createdDate": 1.645016730278E9,
+      "createdDate": 1645016730.2780001163483,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -70201,12 +70201,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.645016730278E9,
+      "modifiedDate": 1645016730.2780001163483,
       "name": "[Phenotype Phebruary][HF] Heart failure (3Pe, 30Era)",
       "id": 159
     },
     {
-      "createdDate": 1.645016815299E9,
+      "createdDate": 1645016815.2990000247955,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -72479,12 +72479,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.645016815299E9,
+      "modifiedDate": 1645016815.2990000247955,
       "name": "[Phenotype Phebruary][HF] Heart failure with inpatient or ER visit (3Pe, 30Era)",
       "id": 160
     },
     {
-      "createdDate": 1.645058809881E9,
+      "createdDate": 1645058809.8810000419617,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -74716,12 +74716,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.645058809881E9,
+      "modifiedDate": 1645058809.8810000419617,
       "name": "[Phenotype Phebruary][HF] Cor Pulmonale (3Pe, 30Era)",
       "id": 162
     },
     {
-      "createdDate": 1.645058840982E9,
+      "createdDate": 1645058840.9820001125336,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -76994,12 +76994,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.645058840982E9,
+      "modifiedDate": 1645058840.9820001125336,
       "name": "[Phenotype Phebruary][HF] Cor Pulmonale with inpatient or ER visit (3Pe, 30Era)",
       "id": 163
     },
     {
-      "createdDate": 1.645058873649E9,
+      "createdDate": 1645058873.6489999294281,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -79272,12 +79272,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.645058873649E9,
+      "modifiedDate": 1645058873.6489999294281,
       "name": "[Phenotype Phebruary][HF] Cor Pulmonale with no inpatient or ER visit (3Pe, 30Era)",
       "id": 164
     },
     {
-      "createdDate": 1.645153237874E9,
+      "createdDate": 1645153237.8740000724792,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -81221,12 +81221,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.645153237874E9,
+      "modifiedDate": 1645153237.8740000724792,
       "name": "[Phenotype Phebruary][CM] Hypertrophic Cardiomyopathy",
       "id": 169
     },
     {
-      "createdDate": 1.645153044043E9,
+      "createdDate": 1645153044.0429999828339,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -83149,12 +83149,12 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.645153044043E9,
+      "modifiedDate": 1645153044.0429999828339,
       "name": "[Phenotype Phebruary][CM] Dilated Cardiomyopathy",
       "id": 168
     },
     {
-      "createdDate": 1.645178281008E9,
+      "createdDate": 1645178281.0079998970032,
       "expression": {
         "ExpressionLimit": {"Type": "First"},
         "CollapseSettings": {
@@ -84888,9 +84888,1881 @@
         }
       },
       "logicDescription": "",
-      "modifiedDate": 1.645178281008E9,
+      "modifiedDate": 1645178281.0079998970032,
       "name": "[Phenotype Phebruary][CM] Takotsubo cardiomyopathy",
       "id": 170
+    },
+    {
+      "createdDate": 1645216404.2420001029968,
+      "expression": {
+        "ExpressionLimit": {"Type": "First"},
+        "CollapseSettings": {
+          "CollapseType": "ERA",
+          "EraPad": 0
+        },
+        "CensorWindow": {},
+        "ConceptSets": [
+          {
+            "expression": {"items": [{
+              "isExcluded": false,
+              "concept": {
+                "INVALID_REASON_CAPTION": "Valid",
+                "CONCEPT_ID": 374919,
+                "STANDARD_CONCEPT": "S",
+                "CONCEPT_CODE": "24700007",
+                "VOCABULARY_ID": "SNOMED",
+                "CONCEPT_NAME": "Multiple sclerosis",
+                "DOMAIN_ID": "Condition",
+                "STANDARD_CONCEPT_CAPTION": "Standard",
+                "CONCEPT_CLASS_ID": "Clinical Finding",
+                "INVALID_REASON": "V"
+              },
+              "includeMapped": false,
+              "includeDescendants": true
+            }]},
+            "name": "Multiple sclerosis",
+            "id": 0
+          },
+          {
+            "expression": {"items": [
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 262,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "ERIP",
+                  "VOCABULARY_ID": "Visit",
+                  "CONCEPT_NAME": "Emergency Room and Inpatient Visit",
+                  "DOMAIN_ID": "Visit",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Visit",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 9201,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "IP",
+                  "VOCABULARY_ID": "Visit",
+                  "CONCEPT_NAME": "Inpatient Visit",
+                  "DOMAIN_ID": "Visit",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Visit",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              }
+            ]},
+            "name": "Inpatient or IPER visit ",
+            "id": 1
+          }
+        ],
+        "cdmVersionRange": ">=5.0.0",
+        "CensoringCriteria": [],
+        "QualifiedLimit": {"Type": "First"},
+        "InclusionRules": [
+          {
+            "expression": {
+              "CriteriaList": [{
+                "RestrictVisit": false,
+                "StartWindow": {
+                  "UseEventEnd": false,
+                  "Start": {"Coeff": -1},
+                  "End": {
+                    "Days": 1,
+                    "Coeff": -1
+                  },
+                  "UseIndexEnd": false
+                },
+                "IgnoreObservationPeriod": true,
+                "Criteria": {"ConditionOccurrence": {
+                  "ConditionTypeExclude": false,
+                  "CodesetId": 0
+                }},
+                "Occurrence": {
+                  "Type": 0,
+                  "IsDistinct": false,
+                  "Count": 0
+                }
+              }],
+              "Type": "ALL",
+              "DemographicCriteriaList": [],
+              "Groups": []
+            },
+            "name": "has no MS in past"
+          },
+          {
+            "expression": {
+              "CriteriaList": [
+                {
+                  "RestrictVisit": false,
+                  "StartWindow": {
+                    "UseEventEnd": false,
+                    "Start": {
+                      "Days": 0,
+                      "Coeff": -1
+                    },
+                    "End": {
+                      "Days": 730,
+                      "Coeff": 1
+                    },
+                    "UseIndexEnd": false
+                  },
+                  "IgnoreObservationPeriod": true,
+                  "Criteria": {"ConditionOccurrence": {
+                    "CorrelatedCriteria": {
+                      "CriteriaList": [{
+                        "RestrictVisit": false,
+                        "StartWindow": {
+                          "UseEventEnd": false,
+                          "Start": {"Coeff": -1},
+                          "End": {
+                            "Days": 0,
+                            "Coeff": 1
+                          },
+                          "UseIndexEnd": false
+                        },
+                        "IgnoreObservationPeriod": false,
+                        "EndWindow": {
+                          "UseEventEnd": true,
+                          "Start": {
+                            "Days": 0,
+                            "Coeff": -1
+                          },
+                          "End": {"Coeff": 1},
+                          "UseIndexEnd": false
+                        },
+                        "Criteria": {"VisitOccurrence": {
+                          "CodesetId": 1,
+                          "VisitTypeExclude": false
+                        }},
+                        "Occurrence": {
+                          "Type": 2,
+                          "IsDistinct": false,
+                          "Count": 1
+                        }
+                      }],
+                      "Type": "ALL",
+                      "DemographicCriteriaList": [],
+                      "Groups": []
+                    },
+                    "ConditionTypeExclude": false,
+                    "CodesetId": 0
+                  }},
+                  "Occurrence": {
+                    "Type": 2,
+                    "IsDistinct": false,
+                    "Count": 1
+                  }
+                },
+                {
+                  "RestrictVisit": false,
+                  "StartWindow": {
+                    "UseEventEnd": false,
+                    "Start": {
+                      "Days": 0,
+                      "Coeff": -1
+                    },
+                    "End": {
+                      "Days": 730,
+                      "Coeff": 1
+                    },
+                    "UseIndexEnd": false
+                  },
+                  "IgnoreObservationPeriod": true,
+                  "Criteria": {"ConditionOccurrence": {
+                    "ConditionTypeExclude": false,
+                    "CodesetId": 0
+                  }},
+                  "Occurrence": {
+                    "Type": 2,
+                    "CountColumn": "START_DATE",
+                    "IsDistinct": true,
+                    "Count": 5
+                  }
+                }
+              ],
+              "Type": "ANY",
+              "DemographicCriteriaList": [],
+              "Groups": []
+            },
+            "name": "has 1 hospitalization with MS or 5+ codes in 2 year"
+          }
+        ],
+        "PrimaryCriteria": {
+          "CriteriaList": [{"ConditionOccurrence": {
+            "ConditionTypeExclude": false,
+            "CodesetId": 0,
+            "First": true
+          }}],
+          "PrimaryCriteriaLimit": {"Type": "First"},
+          "ObservationWindow": {
+            "PostDays": 0,
+            "PriorDays": 0
+          }
+        }
+      },
+      "logicDescription": "",
+      "modifiedDate": 1645216404.2420001029968,
+      "name": "[Phenotype Phebruary][MS] by Widdifield NSJ 2015",
+      "id": 173
+    },
+    {
+      "createdDate": 1645216073.0810000896454,
+      "expression": {
+        "ExpressionLimit": {"Type": "All"},
+        "CollapseSettings": {
+          "CollapseType": "ERA",
+          "EraPad": 0
+        },
+        "CensorWindow": {},
+        "ConceptSets": [
+          {
+            "expression": {"items": [
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 374919,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "24700007",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Multiple sclerosis",
+                  "DOMAIN_ID": "Condition",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Clinical Finding",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 44784474,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "698626001",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Dementia associated with multiple sclerosis",
+                  "DOMAIN_ID": "Condition",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Clinical Finding",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 765565,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "24800001000004103",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Functional quadriplegia due to multiple sclerosis",
+                  "DOMAIN_ID": "Condition",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Clinical Finding",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 761978,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "25470001000004105",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Cognitive impairment due to multiple sclerosis",
+                  "DOMAIN_ID": "Condition",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Clinical Finding",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              }
+            ]},
+            "name": " Multiple Sclerosis",
+            "id": 0
+          },
+          {
+            "expression": {"items": [
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 1312706,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "117055",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "alemtuzumab",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 19054825,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "44157",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "cladribine",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 19036892,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "190353",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "daclizumab",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 43526424,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "1373478",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "dimethyl fumarate",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 40226579,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "1012892",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "fingolimod",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 751889,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "214582",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "glatiramer",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 722424,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "75917",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "interferon beta-1a",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 713196,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "72257",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "interferon beta-1b",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 1309188,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "7005",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "mitoxantrone",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 735843,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "354770",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "natalizumab",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 1593457,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "1876366",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "ocrelizumab",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 45775146,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "1546168",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "peginterferon beta-1a",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 1314273,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "121191",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "rituximab",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 42900584,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "1310520",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "teriflunomide",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 37497593,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "2261783",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "diroximel fumarate",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 1510913,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "2121085",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "siponimod",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              }
+            ]},
+            "name": "Multiple Sclerosis (MS) drugs",
+            "id": 1
+          }
+        ],
+        "cdmVersionRange": ">=5.0.0",
+        "CensoringCriteria": [{"ConditionOccurrence": {
+          "CorrelatedCriteria": {
+            "CriteriaList": [{
+              "RestrictVisit": false,
+              "StartWindow": {
+                "UseEventEnd": false,
+                "Start": {
+                  "Days": 365,
+                  "Coeff": -1
+                },
+                "End": {
+                  "Days": 1,
+                  "Coeff": -1
+                },
+                "UseIndexEnd": false
+              },
+              "IgnoreObservationPeriod": false,
+              "Criteria": {"ConditionOccurrence": {
+                "ConditionTypeExclude": false,
+                "CodesetId": 0
+              }},
+              "Occurrence": {
+                "Type": 0,
+                "IsDistinct": false,
+                "Count": 0
+              }
+            }],
+            "Type": "ANY",
+            "DemographicCriteriaList": [],
+            "Groups": []
+          },
+          "ConditionTypeExclude": false
+        }}],
+        "QualifiedLimit": {"Type": "First"},
+        "InclusionRules": [{
+          "expression": {
+            "CriteriaList": [{
+              "RestrictVisit": false,
+              "StartWindow": {
+                "UseEventEnd": false,
+                "Start": {
+                  "Days": 0,
+                  "Coeff": -1
+                },
+                "End": {"Coeff": 1},
+                "UseIndexEnd": false
+              },
+              "IgnoreObservationPeriod": false,
+              "Criteria": {"ConditionOccurrence": {
+                "CorrelatedCriteria": {
+                  "CriteriaList": [],
+                  "Type": "ANY",
+                  "DemographicCriteriaList": [],
+                  "Groups": [
+                    {
+                      "CriteriaList": [{
+                        "RestrictVisit": false,
+                        "StartWindow": {
+                          "UseEventEnd": false,
+                          "Start": {
+                            "Days": 0,
+                            "Coeff": -1
+                          },
+                          "End": {
+                            "Days": 365,
+                            "Coeff": 1
+                          },
+                          "UseIndexEnd": false
+                        },
+                        "IgnoreObservationPeriod": true,
+                        "Criteria": {"ConditionOccurrence": {
+                          "ConditionTypeExclude": false,
+                          "CodesetId": 0
+                        }},
+                        "Occurrence": {
+                          "Type": 2,
+                          "CountColumn": "START_DATE",
+                          "IsDistinct": true,
+                          "Count": 3
+                        }
+                      }],
+                      "Type": "ALL",
+                      "DemographicCriteriaList": [],
+                      "Groups": []
+                    },
+                    {
+                      "CriteriaList": [{
+                        "RestrictVisit": false,
+                        "StartWindow": {
+                          "UseEventEnd": false,
+                          "Start": {
+                            "Days": 0,
+                            "Coeff": -1
+                          },
+                          "End": {
+                            "Days": 365,
+                            "Coeff": 1
+                          },
+                          "UseIndexEnd": false
+                        },
+                        "IgnoreObservationPeriod": true,
+                        "Criteria": {"DrugExposure": {
+                          "CodesetId": 1,
+                          "DrugTypeExclude": false
+                        }},
+                        "Occurrence": {
+                          "Type": 2,
+                          "CountColumn": "START_DATE",
+                          "IsDistinct": true,
+                          "Count": 3
+                        }
+                      }],
+                      "Type": "ALL",
+                      "DemographicCriteriaList": [],
+                      "Groups": []
+                    },
+                    {
+                      "CriteriaList": [
+                        {
+                          "RestrictVisit": false,
+                          "StartWindow": {
+                            "UseEventEnd": false,
+                            "Start": {
+                              "Days": 0,
+                              "Coeff": -1
+                            },
+                            "End": {
+                              "Days": 365,
+                              "Coeff": 1
+                            },
+                            "UseIndexEnd": false
+                          },
+                          "IgnoreObservationPeriod": true,
+                          "Criteria": {"ConditionOccurrence": {
+                            "ConditionTypeExclude": false,
+                            "CodesetId": 0
+                          }},
+                          "Occurrence": {
+                            "Type": 2,
+                            "CountColumn": "START_DATE",
+                            "IsDistinct": true,
+                            "Count": 1
+                          }
+                        },
+                        {
+                          "RestrictVisit": false,
+                          "StartWindow": {
+                            "UseEventEnd": false,
+                            "Start": {
+                              "Days": 0,
+                              "Coeff": -1
+                            },
+                            "End": {
+                              "Days": 365,
+                              "Coeff": 1
+                            },
+                            "UseIndexEnd": false
+                          },
+                          "IgnoreObservationPeriod": true,
+                          "Criteria": {"DrugExposure": {
+                            "CodesetId": 1,
+                            "DrugTypeExclude": false
+                          }},
+                          "Occurrence": {
+                            "Type": 2,
+                            "CountColumn": "START_DATE",
+                            "IsDistinct": true,
+                            "Count": 2
+                          }
+                        }
+                      ],
+                      "Type": "ALL",
+                      "DemographicCriteriaList": [],
+                      "Groups": []
+                    },
+                    {
+                      "CriteriaList": [
+                        {
+                          "RestrictVisit": false,
+                          "StartWindow": {
+                            "UseEventEnd": false,
+                            "Start": {
+                              "Days": 0,
+                              "Coeff": -1
+                            },
+                            "End": {
+                              "Days": 365,
+                              "Coeff": 1
+                            },
+                            "UseIndexEnd": false
+                          },
+                          "IgnoreObservationPeriod": true,
+                          "Criteria": {"ConditionOccurrence": {
+                            "ConditionTypeExclude": false,
+                            "CodesetId": 0
+                          }},
+                          "Occurrence": {
+                            "Type": 2,
+                            "CountColumn": "START_DATE",
+                            "IsDistinct": true,
+                            "Count": 2
+                          }
+                        },
+                        {
+                          "RestrictVisit": false,
+                          "StartWindow": {
+                            "UseEventEnd": false,
+                            "Start": {
+                              "Days": 0,
+                              "Coeff": -1
+                            },
+                            "End": {
+                              "Days": 365,
+                              "Coeff": 1
+                            },
+                            "UseIndexEnd": false
+                          },
+                          "IgnoreObservationPeriod": true,
+                          "Criteria": {"DrugExposure": {
+                            "CodesetId": 1,
+                            "DrugTypeExclude": false
+                          }},
+                          "Occurrence": {
+                            "Type": 2,
+                            "CountColumn": "START_DATE",
+                            "IsDistinct": true,
+                            "Count": 1
+                          }
+                        }
+                      ],
+                      "Type": "ALL",
+                      "DemographicCriteriaList": [],
+                      "Groups": []
+                    }
+                  ]
+                },
+                "ConditionTypeExclude": false,
+                "CodesetId": 0
+              }},
+              "Occurrence": {
+                "Type": 2,
+                "IsDistinct": false,
+                "Count": 1
+              }
+            }],
+            "Type": "ALL",
+            "DemographicCriteriaList": [],
+            "Groups": []
+          },
+          "name": "Has 3 diagnosis of MS (including index date) or a combination of 3 diagnosis or drug occurrences"
+        }],
+        "PrimaryCriteria": {
+          "CriteriaList": [{"ConditionOccurrence": {
+            "ConditionTypeExclude": false,
+            "CodesetId": 0
+          }}],
+          "PrimaryCriteriaLimit": {"Type": "All"},
+          "ObservationWindow": {
+            "PostDays": 0,
+            "PriorDays": 0
+          }
+        }
+      },
+      "logicDescription": "",
+      "modifiedDate": 1645216073.0810000896454,
+      "name": "[Phenotype Phebruary][MS] Culpepper 3x_with an exit criteria",
+      "id": 171
+    },
+    {
+      "createdDate": 1645217600.5729999542236,
+      "expression": {
+        "ExpressionLimit": {"Type": "First"},
+        "CollapseSettings": {
+          "CollapseType": "ERA",
+          "EraPad": 0
+        },
+        "CensorWindow": {},
+        "ConceptSets": [
+          {
+            "expression": {"items": [
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 374919,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "24700007",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Multiple sclerosis",
+                  "DOMAIN_ID": "Condition",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Clinical Finding",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 44784474,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "698626001",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Dementia associated with multiple sclerosis",
+                  "DOMAIN_ID": "Condition",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Clinical Finding",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 765565,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "24800001000004103",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Functional quadriplegia due to multiple sclerosis",
+                  "DOMAIN_ID": "Condition",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Clinical Finding",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 761978,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "25470001000004105",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Cognitive impairment due to multiple sclerosis",
+                  "DOMAIN_ID": "Condition",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Clinical Finding",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              }
+            ]},
+            "name": "EPI AESI Covid 19 Multiple Sclerosis-revised",
+            "id": 0
+          },
+          {
+            "expression": {"items": [
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 1312706,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "117055",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "alemtuzumab",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 19054825,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "44157",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "cladribine",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 19036892,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "190353",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "daclizumab",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 43526424,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "1373478",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "dimethyl fumarate",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 40226579,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "1012892",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "fingolimod",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 751889,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "214582",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "glatiramer",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 722424,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "75917",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "interferon beta-1a",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 713196,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "72257",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "interferon beta-1b",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 1309188,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "7005",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "mitoxantrone",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 735843,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "354770",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "natalizumab",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 1593457,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "1876366",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "ocrelizumab",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 45775146,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "1546168",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "peginterferon beta-1a",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 1314273,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "121191",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "rituximab",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 42900584,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "1310520",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "teriflunomide",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 37497593,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "2261783",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "diroximel fumarate",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 1510913,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "2121085",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "siponimod",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              }
+            ]},
+            "name": "[EPI] Multiple Sclerosis (MS) drugs",
+            "id": 1
+          }
+        ],
+        "cdmVersionRange": ">=5.0.0",
+        "CensoringCriteria": [],
+        "QualifiedLimit": {"Type": "First"},
+        "InclusionRules": [
+          {
+            "expression": {
+              "CriteriaList": [{
+                "RestrictVisit": false,
+                "StartWindow": {
+                  "UseEventEnd": false,
+                  "Start": {"Coeff": -1},
+                  "End": {
+                    "Days": 1,
+                    "Coeff": -1
+                  },
+                  "UseIndexEnd": false
+                },
+                "IgnoreObservationPeriod": true,
+                "Criteria": {"ConditionOccurrence": {
+                  "ConditionTypeExclude": false,
+                  "CodesetId": 0
+                }},
+                "Occurrence": {
+                  "Type": 0,
+                  "IsDistinct": false,
+                  "Count": 0
+                }
+              }],
+              "Type": "ALL",
+              "DemographicCriteriaList": [],
+              "Groups": []
+            },
+            "name": "has no MS in past"
+          },
+          {
+            "expression": {
+              "CriteriaList": [{
+                "RestrictVisit": false,
+                "StartWindow": {
+                  "UseEventEnd": false,
+                  "Start": {
+                    "Days": 0,
+                    "Coeff": -1
+                  },
+                  "End": {"Coeff": 1},
+                  "UseIndexEnd": false
+                },
+                "IgnoreObservationPeriod": false,
+                "Criteria": {"ConditionOccurrence": {
+                  "CorrelatedCriteria": {
+                    "CriteriaList": [],
+                    "Type": "ANY",
+                    "DemographicCriteriaList": [],
+                    "Groups": [
+                      {
+                        "CriteriaList": [{
+                          "RestrictVisit": false,
+                          "StartWindow": {
+                            "UseEventEnd": false,
+                            "Start": {
+                              "Days": 0,
+                              "Coeff": -1
+                            },
+                            "End": {
+                              "Days": 365,
+                              "Coeff": 1
+                            },
+                            "UseIndexEnd": false
+                          },
+                          "IgnoreObservationPeriod": true,
+                          "Criteria": {"ConditionOccurrence": {
+                            "ConditionTypeExclude": false,
+                            "CodesetId": 0
+                          }},
+                          "Occurrence": {
+                            "Type": 2,
+                            "CountColumn": "START_DATE",
+                            "IsDistinct": true,
+                            "Count": 3
+                          }
+                        }],
+                        "Type": "ALL",
+                        "DemographicCriteriaList": [],
+                        "Groups": []
+                      },
+                      {
+                        "CriteriaList": [{
+                          "RestrictVisit": false,
+                          "StartWindow": {
+                            "UseEventEnd": false,
+                            "Start": {
+                              "Days": 0,
+                              "Coeff": -1
+                            },
+                            "End": {
+                              "Days": 365,
+                              "Coeff": 1
+                            },
+                            "UseIndexEnd": false
+                          },
+                          "IgnoreObservationPeriod": true,
+                          "Criteria": {"DrugExposure": {
+                            "CodesetId": 1,
+                            "DrugTypeExclude": false
+                          }},
+                          "Occurrence": {
+                            "Type": 2,
+                            "CountColumn": "START_DATE",
+                            "IsDistinct": true,
+                            "Count": 3
+                          }
+                        }],
+                        "Type": "ALL",
+                        "DemographicCriteriaList": [],
+                        "Groups": []
+                      },
+                      {
+                        "CriteriaList": [
+                          {
+                            "RestrictVisit": false,
+                            "StartWindow": {
+                              "UseEventEnd": false,
+                              "Start": {
+                                "Days": 0,
+                                "Coeff": -1
+                              },
+                              "End": {
+                                "Days": 365,
+                                "Coeff": 1
+                              },
+                              "UseIndexEnd": false
+                            },
+                            "IgnoreObservationPeriod": true,
+                            "Criteria": {"ConditionOccurrence": {
+                              "ConditionTypeExclude": false,
+                              "CodesetId": 0
+                            }},
+                            "Occurrence": {
+                              "Type": 2,
+                              "CountColumn": "START_DATE",
+                              "IsDistinct": true,
+                              "Count": 1
+                            }
+                          },
+                          {
+                            "RestrictVisit": false,
+                            "StartWindow": {
+                              "UseEventEnd": false,
+                              "Start": {
+                                "Days": 0,
+                                "Coeff": -1
+                              },
+                              "End": {
+                                "Days": 365,
+                                "Coeff": 1
+                              },
+                              "UseIndexEnd": false
+                            },
+                            "IgnoreObservationPeriod": true,
+                            "Criteria": {"DrugExposure": {
+                              "CodesetId": 1,
+                              "DrugTypeExclude": false
+                            }},
+                            "Occurrence": {
+                              "Type": 2,
+                              "CountColumn": "START_DATE",
+                              "IsDistinct": true,
+                              "Count": 2
+                            }
+                          }
+                        ],
+                        "Type": "ALL",
+                        "DemographicCriteriaList": [],
+                        "Groups": []
+                      },
+                      {
+                        "CriteriaList": [
+                          {
+                            "RestrictVisit": false,
+                            "StartWindow": {
+                              "UseEventEnd": false,
+                              "Start": {
+                                "Days": 0,
+                                "Coeff": -1
+                              },
+                              "End": {
+                                "Days": 365,
+                                "Coeff": 1
+                              },
+                              "UseIndexEnd": false
+                            },
+                            "IgnoreObservationPeriod": true,
+                            "Criteria": {"ConditionOccurrence": {
+                              "ConditionTypeExclude": false,
+                              "CodesetId": 0
+                            }},
+                            "Occurrence": {
+                              "Type": 2,
+                              "CountColumn": "START_DATE",
+                              "IsDistinct": true,
+                              "Count": 2
+                            }
+                          },
+                          {
+                            "RestrictVisit": false,
+                            "StartWindow": {
+                              "UseEventEnd": false,
+                              "Start": {
+                                "Days": 0,
+                                "Coeff": -1
+                              },
+                              "End": {
+                                "Days": 365,
+                                "Coeff": 1
+                              },
+                              "UseIndexEnd": false
+                            },
+                            "IgnoreObservationPeriod": true,
+                            "Criteria": {"DrugExposure": {
+                              "CodesetId": 1,
+                              "DrugTypeExclude": false
+                            }},
+                            "Occurrence": {
+                              "Type": 2,
+                              "CountColumn": "START_DATE",
+                              "IsDistinct": true,
+                              "Count": 1
+                            }
+                          }
+                        ],
+                        "Type": "ALL",
+                        "DemographicCriteriaList": [],
+                        "Groups": []
+                      }
+                    ]
+                  },
+                  "ConditionTypeExclude": false,
+                  "CodesetId": 0
+                }},
+                "Occurrence": {
+                  "Type": 2,
+                  "IsDistinct": false,
+                  "Count": 1
+                }
+              }],
+              "Type": "ALL",
+              "DemographicCriteriaList": [],
+              "Groups": []
+            },
+            "name": "has 3 condition or drug occurrences"
+          }
+        ],
+        "PrimaryCriteria": {
+          "CriteriaList": [{"ConditionOccurrence": {
+            "ConditionTypeExclude": false,
+            "CodesetId": 0,
+            "First": true
+          }}],
+          "PrimaryCriteriaLimit": {"Type": "First"},
+          "ObservationWindow": {
+            "PostDays": 0,
+            "PriorDays": 0
+          }
+        }
+      },
+      "logicDescription": "",
+      "modifiedDate": 1645217600.5729999542236,
+      "name": "[Phenotype Phebruary][MS] Culpepper 3x",
+      "id": 174
+    },
+    {
+      "createdDate": 1645216187.9279999732971,
+      "expression": {
+        "ExpressionLimit": {"Type": "First"},
+        "CollapseSettings": {
+          "CollapseType": "ERA",
+          "EraPad": 0
+        },
+        "CensorWindow": {},
+        "ConceptSets": [
+          {
+            "expression": {"items": [
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 374919,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "24700007",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Multiple sclerosis",
+                  "DOMAIN_ID": "Condition",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Clinical Finding",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 44784474,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "698626001",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Dementia associated with multiple sclerosis",
+                  "DOMAIN_ID": "Condition",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Clinical Finding",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 765565,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "24800001000004103",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Functional quadriplegia due to multiple sclerosis",
+                  "DOMAIN_ID": "Condition",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Clinical Finding",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 761978,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "25470001000004105",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Cognitive impairment due to multiple sclerosis",
+                  "DOMAIN_ID": "Condition",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Clinical Finding",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              }
+            ]},
+            "name": " Multiple Sclerosis",
+            "id": 0
+          },
+          {
+            "expression": {"items": [
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 1312706,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "117055",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "alemtuzumab",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 19054825,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "44157",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "cladribine",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 19036892,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "190353",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "daclizumab",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 43526424,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "1373478",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "dimethyl fumarate",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 40226579,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "1012892",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "fingolimod",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 751889,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "214582",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "glatiramer",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 722424,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "75917",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "interferon beta-1a",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 713196,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "72257",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "interferon beta-1b",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 1309188,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "7005",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "mitoxantrone",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 735843,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "354770",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "natalizumab",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 1593457,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "1876366",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "ocrelizumab",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 45775146,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "1546168",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "peginterferon beta-1a",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 1314273,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "121191",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "rituximab",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 42900584,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "1310520",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "teriflunomide",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 37497593,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "2261783",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "diroximel fumarate",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 1510913,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "2121085",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "siponimod",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              }
+            ]},
+            "name": "Multiple Sclerosis (MS) drugs",
+            "id": 1
+          }
+        ],
+        "cdmVersionRange": ">=5.0.0",
+        "CensoringCriteria": [],
+        "QualifiedLimit": {"Type": "First"},
+        "InclusionRules": [],
+        "PrimaryCriteria": {
+          "CriteriaList": [{"ConditionOccurrence": {
+            "ConditionTypeExclude": false,
+            "CodesetId": 0,
+            "First": true
+          }}],
+          "PrimaryCriteriaLimit": {"Type": "First"},
+          "ObservationWindow": {
+            "PostDays": 0,
+            "PriorDays": 0
+          }
+        }
+      },
+      "logicDescription": "",
+      "modifiedDate": 1645216187.9279999732971,
+      "name": "[Phenotype Phebruary][MS] Earliest occurrence of Multiple sclerosis",
+      "id": 172
     }
   ],
   "name": "Phenotype Phebruary - an OHDSI network study",

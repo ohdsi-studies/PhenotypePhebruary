@@ -1,0 +1,378 @@
+{
+  "ExpressionLimit": {"Type": "First"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {},
+  "ConceptSets": [
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 374919,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "24700007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Multiple sclerosis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 44784474,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "698626001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Dementia associated with multiple sclerosis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 765565,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "24800001000004103",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Functional quadriplegia due to multiple sclerosis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 761978,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "25470001000004105",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cognitive impairment due to multiple sclerosis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": " Multiple Sclerosis",
+      "id": 0
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1312706,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "117055",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "alemtuzumab",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19054825,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "44157",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cladribine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19036892,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "190353",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "daclizumab",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43526424,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1373478",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "dimethyl fumarate",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40226579,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1012892",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "fingolimod",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 751889,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "214582",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "glatiramer",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 722424,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "75917",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "interferon beta-1a",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 713196,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "72257",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "interferon beta-1b",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1309188,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "7005",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "mitoxantrone",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 735843,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "354770",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "natalizumab",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1593457,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1876366",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "ocrelizumab",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45775146,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1546168",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "peginterferon beta-1a",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1314273,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "121191",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "rituximab",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42900584,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1310520",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "teriflunomide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37497593,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2261783",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "diroximel fumarate",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1510913,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2121085",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "siponimod",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "Multiple Sclerosis (MS) drugs",
+      "id": 1
+    }
+  ],
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [],
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [],
+  "PrimaryCriteria": {
+    "CriteriaList": [{"ConditionOccurrence": {
+      "ConditionTypeExclude": false,
+      "CodesetId": 0,
+      "First": true
+    }}],
+    "PrimaryCriteriaLimit": {"Type": "First"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 0
+    }
+  }
+}
