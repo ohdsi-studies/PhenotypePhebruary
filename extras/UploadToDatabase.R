@@ -11,14 +11,16 @@ connectionDetails <- DatabaseConnector::createConnectionDetails(
   user = Sys.getenv("phenotypeLibrarydbUser"),
   password = Sys.getenv("phenotypeLibrarydbPw")
 )
-resultsSchema <- 'phenotype_phebruary2'
+resultsSchema <- 'phenotype_phebruary'
 
 # commenting this function as it maybe accidentally run - loosing data.
-createResultsDataModel(connectionDetails = connectionDetails, schema = resultsSchema)
-sqlGrant <- "grant select on all tables in schema phenotype_phebruary to phenotypelibrary;"
-connection <- DatabaseConnector::renderTranslateExecuteSql(connection = DatabaseConnector::connect(connectionDetails = connectionDetails))
-DatabaseConnector::renderTranslateExecuteSql(connection = connection, sql = sqlGrant)
-DatabaseConnector::disconnect(connection)
+# createResultsDataModel(connectionDetails = connectionDetails, schema = resultsSchema)
+sqlGrant <-
+  "grant select on all tables in schema phenotype_phebruary to phenotypelibrary;"
+DatabaseConnector::renderTranslateExecuteSql(
+  connection = DatabaseConnector::connect(connectionDetails = connectionDetails),
+  sql = sqlGrant
+)
 
 
 Sys.setenv("POSTGRES_PATH" = Sys.getenv('POSTGRES_PATH'))
