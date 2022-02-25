@@ -1971,22 +1971,7 @@
         "Type": "ANY",
         "DemographicCriteriaList": [],
         "Groups": [{
-          "CriteriaList": [{
-            "RestrictVisit": false,
-            "StartWindow": {
-              "UseEventEnd": false,
-              "Start": {"Coeff": -1},
-              "End": {"Coeff": 1},
-              "UseIndexEnd": false
-            },
-            "IgnoreObservationPeriod": false,
-            "Criteria": {"VisitOccurrence": {"VisitTypeExclude": false}},
-            "Occurrence": {
-              "Type": 0,
-              "IsDistinct": false,
-              "Count": 0
-            }
-          }],
+          "CriteriaList": [],
           "Type": "ALL",
           "DemographicCriteriaList": [],
           "Groups": [{

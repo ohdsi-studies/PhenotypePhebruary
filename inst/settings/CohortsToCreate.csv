@@ -81,6 +81,6 @@ atlasId,cohortId,id,cohortName
 171,171,171,[Phenotype Phebruary][MS] Multiple Sclerosis Culpepper 3x_with an exit criteria
 174,174,174,[Phenotype Phebruary][MS] Multiple Sclerosis Culpepper 3x
 172,172,172,[Phenotype Phebruary][MS] Multiple Sclerosis Earliest occurrence
-175,175,175,"[Phenotype Phebruary][MI] Acute myocardial infarction with inpt or severe outpatient (7Ps, 180Era)"
 176,176,176,"[Phenotype Phebruary][MI] Acute myocardial infarction with severe outpatient (7Ps, 180Era)"
 177,177,177,"[Phenotype Phebruary][MI] Acute myocardial infarction with no severe outpatient (7Ps, 180Era)"
+175,175,175,"[Phenotype Phebruary][MI] Acute myocardial infarction with inpt or severe outpatient (7Ps, 180Era)"
