@@ -1,0 +1,2090 @@
+{
+  "ExpressionLimit": {"Type": "First"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 1
+  },
+  "CensorWindow": {},
+  "ConceptSets": [
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 319826,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "31992008",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Secondary hypertension",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "Secondary Hypertension",
+      "id": 1
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45768449,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "706882009",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Hypertensive crisis",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "Hypertensive Crisis",
+      "id": 4
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 21600381,
+          "STANDARD_CONCEPT": "C",
+          "CONCEPT_CODE": "C02",
+          "VOCABULARY_ID": "ATC",
+          "CONCEPT_NAME": "ANTIHYPERTENSIVES",
+          "DOMAIN_ID": "Drug",
+          "STANDARD_CONCEPT_CAPTION": "Classification",
+          "CONCEPT_CLASS_ID": "ATC 2nd",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "Hypertensive Drugs",
+      "id": 5
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4296653,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "401303003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Acute ST segment elevation myocardial infarction",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45766114,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "703211006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Subsequent ST segment elevation myocardial infarction",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "ST elevated Myocardial Infarction",
+      "id": 6
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4329847,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "22298006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Myocardial infarction",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4296653,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "401303003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Acute ST segment elevation myocardial infarction",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45766114,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "703211006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Subsequent ST segment elevation myocardial infarction",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 314666,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1755008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Old myocardial infarction",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "Non ST Elevated Myocardial Infarction",
+      "id": 7
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 315296,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "4557003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Preinfarction syndrome",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4231426,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "89323001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Angina, class IV",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4161973,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "371806006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Progressive angina",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "Unstable Angina",
+      "id": 8
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 321318,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "194828000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Angina pectoris",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4119942,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "233819005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Stable angina",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4116486,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "300995000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Exercise-induced angina",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4264145,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "61490001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Angina, class I",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4184827,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "41334000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Angina, class II",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4310270,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "85284003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Angina, class III",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4324893,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "429559004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Typical angina",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "Chronic Stable Angina (no descendants)",
+      "id": 9
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2614667,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "A0426",
+            "VOCABULARY_ID": "HCPCS",
+            "CONCEPT_NAME": "Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",
+            "DOMAIN_ID": "Observation",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "HCPCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2614672,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "A0431",
+            "VOCABULARY_ID": "HCPCS",
+            "CONCEPT_NAME": "Ambulance service, conventional air services, transport, one way (rotary wing)",
+            "DOMAIN_ID": "Observation",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "HCPCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2614668,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "A0427",
+            "VOCABULARY_ID": "HCPCS",
+            "CONCEPT_NAME": "Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",
+            "DOMAIN_ID": "Observation",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "HCPCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 38003303,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "0542",
+            "VOCABULARY_ID": "Revenue Code",
+            "CONCEPT_NAME": "Ambulance - Medical Transport",
+            "DOMAIN_ID": "Revenue Code",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Revenue Code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2614664,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "A0422",
+            "VOCABULARY_ID": "HCPCS",
+            "CONCEPT_NAME": "Ambulance (als or bls) oxygen and oxygen supplies, life sustaining situation",
+            "DOMAIN_ID": "Observation",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "HCPCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 38003301,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "0540",
+            "VOCABULARY_ID": "Revenue Code",
+            "CONCEPT_NAME": "Ambulance - General Classification",
+            "DOMAIN_ID": "Revenue Code",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Revenue Code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37399454,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "715537001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Transportation by ambulance",
+            "DOMAIN_ID": "Observation",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2614669,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "A0428",
+            "VOCABULARY_ID": "HCPCS",
+            "CONCEPT_NAME": "Ambulance service, basic life support, non-emergency transport, (bls)",
+            "DOMAIN_ID": "Observation",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "HCPCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2614670,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "A0429",
+            "VOCABULARY_ID": "HCPCS",
+            "CONCEPT_NAME": "Ambulance service, basic life support, emergency transport (bls-emergency)",
+            "DOMAIN_ID": "Observation",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "HCPCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2614680,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "A0998",
+            "VOCABULARY_ID": "HCPCS",
+            "CONCEPT_NAME": "Ambulance response and treatment, no transport",
+            "DOMAIN_ID": "Observation",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "HCPCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "Ambulance",
+      "id": 10
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 38003259,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "0450",
+            "VOCABULARY_ID": "Revenue Code",
+            "CONCEPT_NAME": "Emergency Room - General Classification",
+            "DOMAIN_ID": "Revenue Code",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Revenue Code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 38003263,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "0459",
+            "VOCABULARY_ID": "Revenue Code",
+            "CONCEPT_NAME": "Emergency Room - Other",
+            "DOMAIN_ID": "Revenue Code",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Revenue Code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 9203,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "ER",
+            "VOCABULARY_ID": "Visit",
+            "CONCEPT_NAME": "Emergency Room Visit",
+            "DOMAIN_ID": "Visit",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Visit",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2617454,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "G0380",
+            "VOCABULARY_ID": "HCPCS",
+            "CONCEPT_NAME": "Level 1 hospital emergency department visit provided in a type b emergency department; (the ed must meet at least one of the following requirements: (1) it is licensed by the state in which it is located under applicable state law as an emergency room...",
+            "DOMAIN_ID": "Observation",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "HCPCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2617455,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "G0381",
+            "VOCABULARY_ID": "HCPCS",
+            "CONCEPT_NAME": "Level 2 hospital emergency department visit provided in a type b emergency department; (the ed must meet at least one of the following requirements: (1) it is licensed by the state in which it is located under applicable state law as an emergency room...",
+            "DOMAIN_ID": "Observation",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "HCPCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2617456,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "G0382",
+            "VOCABULARY_ID": "HCPCS",
+            "CONCEPT_NAME": "Level 3 hospital emergency department visit provided in a type b emergency department; (the ed must meet at least one of the following requirements: (1) it is licensed by the state in which it is located under applicable state law as an emergency room...",
+            "DOMAIN_ID": "Observation",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "HCPCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2617457,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "G0383",
+            "VOCABULARY_ID": "HCPCS",
+            "CONCEPT_NAME": "Level 4 hospital emergency department visit provided in a type b emergency department; (the ed must meet at least one of the following requirements: (1) it is licensed by the state in which it is located under applicable state law as an emergency room...",
+            "DOMAIN_ID": "Observation",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "HCPCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2617458,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "G0384",
+            "VOCABULARY_ID": "HCPCS",
+            "CONCEPT_NAME": "Level 5 hospital emergency department visit provided in a type b emergency department; (the ed must meet at least one of the following requirements: (1) it is licensed by the state in which it is located under applicable state law as an emergency room...",
+            "DOMAIN_ID": "Observation",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "HCPCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 38003524,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "0981",
+            "VOCABULARY_ID": "Revenue Code",
+            "CONCEPT_NAME": "Professional Fees - Emergency Room",
+            "DOMAIN_ID": "Revenue Code",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Revenue Code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "Emergency Room",
+      "id": 11
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3044889,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "34534-8",
+            "VOCABULARY_ID": "LOINC",
+            "CONCEPT_NAME": "EKG 12 channel panel",
+            "DOMAIN_ID": "Measurement",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Observation",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4065278,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "164850009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Ambulatory ECG",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 38003398,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "0730",
+            "VOCABULARY_ID": "Revenue Code",
+            "CONCEPT_NAME": "EKG/ECG - General Classification",
+            "DOMAIN_ID": "Revenue Code",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Revenue Code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4065277,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "164847006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Standard ECG",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 38003528,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "0985",
+            "VOCABULARY_ID": "Revenue Code",
+            "CONCEPT_NAME": "Professional Fees - EKG",
+            "DOMAIN_ID": "Revenue Code",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Revenue Code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4145308,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "268400002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "12 lead ECG",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3043216,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "45033-8",
+            "VOCABULARY_ID": "LOINC",
+            "CONCEPT_NAME": "Cardiovascular physiologic and EKG assessment panel",
+            "DOMAIN_ID": "Measurement",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Observation",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "Electrocardiogram EKG",
+      "id": 12
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4296597,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "76746007",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Cardiovascular stress testing",
+          "DOMAIN_ID": "Procedure",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Procedure",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "Cardiac stress test",
+      "id": 13
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40756950,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "93458",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Catheter placement in coronary artery(s) for coronary angiography, including intraprocedural injection(s) for coronary angiography, imaging supervision and interpretation; with left heart catheterization including intraprocedural injection(s) for left...",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4184832,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "41339005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Coronary angioplasty",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4006788,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "11101003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Percutaneous transluminal coronary angioplasty",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "Per cutaneous coronary intervention (PCI)",
+      "id": 15
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 1112807,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "1191",
+          "VOCABULARY_ID": "RxNorm",
+          "CONCEPT_NAME": "aspirin",
+          "DOMAIN_ID": "Drug",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Ingredient",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "Aspirin",
+      "id": 17
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601801,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09B",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "ACE INHIBITORS, COMBINATIONS",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 3rd",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601783,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C09A",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "ACE INHIBITORS, PLAIN",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 3rd",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "ACE inhibitor",
+      "id": 18
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601682,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C07AB",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "Beta blocking agents, selective",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 4th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601709,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C07BB",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "Beta blocking agents, selective, and thiazides",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 4th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601724,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C07CB",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "Beta blocking agents, selective, and other diuretics",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 4th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1123698,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "C07FX",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "Beta blocking agents, other combinations",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 4th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "Beta blocker",
+      "id": 19
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 21601744,
+          "STANDARD_CONCEPT": "C",
+          "CONCEPT_CODE": "C08",
+          "VOCABULARY_ID": "ATC",
+          "CONCEPT_NAME": "CALCIUM CHANNEL BLOCKERS",
+          "DOMAIN_ID": "Drug",
+          "STANDARD_CONCEPT_CAPTION": "Classification",
+          "CONCEPT_CLASS_ID": "ATC 2nd",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "Calcium Channel Blocker",
+      "id": 20
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4021291,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "105000003",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Troponin measurement",
+          "DOMAIN_ID": "Measurement",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Procedure",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "Cardiac Biomarkers - troponin",
+      "id": 21
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 21600961,
+          "STANDARD_CONCEPT": "C",
+          "CONCEPT_CODE": "B01A",
+          "VOCABULARY_ID": "ATC",
+          "CONCEPT_NAME": "ANTITHROMBOTIC AGENTS",
+          "DOMAIN_ID": "Drug",
+          "STANDARD_CONCEPT_CAPTION": "Classification",
+          "CONCEPT_CLASS_ID": "ATC 3rd",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "Anti thrombotic agent",
+      "id": 22
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4185572,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "44103008",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Ventricular arrhythmia",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "Ventricular arrhythmia",
+      "id": 23
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 316139,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "84114007",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Heart failure",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "Heart Failure",
+      "id": 24
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 201965,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "27942005",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Shock",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "Shock",
+      "id": 25
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4295129,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "76388001",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "ST segment elevation",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "ST segment elevation",
+      "id": 30
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4028741,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "10725009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Benign hypertension",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 320128,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "59621000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Essential hypertension",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45768449,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "706882009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Hypertensive crisis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 44783643,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "697929007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Intermittent hypertension",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 319826,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "31992008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Secondary hypertension",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4279525,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "367390009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Hypertension in the obstetric context",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4167493,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "48194001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Pregnancy-induced hypertension",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4209293,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "56218007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Systolic hypertension",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4167358,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "48146000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Diastolic hypertension",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 316866,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "38341003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Hypertensive disorder",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        }
+      ]},
+      "name": "Essential hypertension",
+      "id": 31
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 321318,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "194828000",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Angina pectoris",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "Angina Pectoris",
+      "id": 32
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4304209,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "103716009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Placement of stent",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4280677,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "65818007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Stent",
+            "DOMAIN_ID": "Device",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Physical Object",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "Stent",
+      "id": 33
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4142645,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "33367005",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Coronary angiography",
+          "DOMAIN_ID": "Procedure",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Procedure",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "Coronary Angiography",
+      "id": 34
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 44784217,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "698247007",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Cardiac arrhythmia",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "Cardiac arrythmia",
+      "id": 35
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 312327,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "57054005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Acute myocardial infarction",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 314666,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1755008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Old myocardial infarction",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4329847,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "22298006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Myocardial infarction",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        }
+      ]},
+      "name": "Acute Myocardial Infarction",
+      "id": 36
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 262,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "ERIP",
+            "VOCABULARY_ID": "Visit",
+            "CONCEPT_NAME": "Emergency Room and Inpatient Visit",
+            "DOMAIN_ID": "Visit",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Visit",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 8717,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "21",
+            "VOCABULARY_ID": "CMS Place of Service",
+            "CONCEPT_NAME": "Inpatient Hospital",
+            "DOMAIN_ID": "Visit",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Visit",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 9201,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "IP",
+            "VOCABULARY_ID": "Visit",
+            "CONCEPT_NAME": "Inpatient Visit",
+            "DOMAIN_ID": "Visit",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Visit",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "Inpatient visit",
+      "id": 37
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 77670,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "29857009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Chest pain",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4092930,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "281245003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Musculoskeletal chest pain",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 73819,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "53430007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Pain of breast",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4330445,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2237002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Pleuritic pain",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4012690,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "103015000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Thoracic nerve root pain",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4010017,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "102589003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Atypical chest pain",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4168213,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "274664007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Chest pain on breathing",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4010016,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "102588006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Chest wall pain",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42539051,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "735940001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Pain of intercostal space",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 315832,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "59021001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Angina decubitus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4145057,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "426396005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cardiac chest pain",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 762941,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "434011000124101",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Chronic chest pain",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4164649,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "274668005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Non-cardiac chest pain",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 315830,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "87343002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Prinzmetal angina",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4119942,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "233819005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Stable angina",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4090559,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "247389006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Intercostal neuralgia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4198141,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "314116003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Post infarct angina",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4109083,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "285386001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Right sided chest pain",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "Chest Pain",
+      "id": 38
+    }
+  ],
+  "EndStrategy": {"DateOffset": {
+    "DateField": "EndDate",
+    "Offset": 7
+  }},
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [],
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {"Coeff": -1},
+            "End": {
+              "Days": 365,
+              "Coeff": -1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": {
+            "UseEventEnd": true,
+            "Start": {
+              "Days": 0,
+              "Coeff": 1
+            },
+            "End": {"Coeff": 1},
+            "UseIndexEnd": false
+          },
+          "Criteria": {"ObservationPeriod": {}},
+          "Occurrence": {
+            "Type": 2,
+            "IsDistinct": false,
+            "Count": 1
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": []
+      },
+      "name": "has 365d prior observation"
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 0,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 0,
+              "Coeff": -1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "Criteria": {"VisitOccurrence": {
+            "CodesetId": 37,
+            "VisitTypeExclude": false
+          }},
+          "Occurrence": {
+            "Type": 0,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [{
+          "CriteriaList": [
+            {
+              "RestrictVisit": false,
+              "StartWindow": {
+                "UseEventEnd": false,
+                "Start": {
+                  "Days": 1,
+                  "Coeff": -1
+                },
+                "End": {
+                  "Days": 0,
+                  "Coeff": 1
+                },
+                "UseIndexEnd": false
+              },
+              "IgnoreObservationPeriod": false,
+              "Criteria": {"ConditionOccurrence": {
+                "ConditionTypeExclude": false,
+                "CodesetId": 32
+              }},
+              "Occurrence": {
+                "Type": 2,
+                "IsDistinct": false,
+                "Count": 1
+              }
+            },
+            {
+              "RestrictVisit": false,
+              "StartWindow": {
+                "UseEventEnd": false,
+                "Start": {
+                  "Days": 1,
+                  "Coeff": -1
+                },
+                "End": {
+                  "Days": 0,
+                  "Coeff": 1
+                },
+                "UseIndexEnd": false
+              },
+              "IgnoreObservationPeriod": false,
+              "Criteria": {"ProcedureOccurrence": {
+                "CodesetId": 12,
+                "ProcedureTypeExclude": false
+              }},
+              "Occurrence": {
+                "Type": 2,
+                "IsDistinct": false,
+                "Count": 1
+              }
+            },
+            {
+              "RestrictVisit": false,
+              "StartWindow": {
+                "UseEventEnd": false,
+                "Start": {
+                  "Days": 1,
+                  "Coeff": -1
+                },
+                "End": {
+                  "Days": 0,
+                  "Coeff": 1
+                },
+                "UseIndexEnd": false
+              },
+              "IgnoreObservationPeriod": false,
+              "Criteria": {"ProcedureOccurrence": {
+                "CodesetId": 13,
+                "ProcedureTypeExclude": false
+              }},
+              "Occurrence": {
+                "Type": 2,
+                "IsDistinct": false,
+                "Count": 1
+              }
+            },
+            {
+              "RestrictVisit": false,
+              "StartWindow": {
+                "UseEventEnd": false,
+                "Start": {
+                  "Days": 1,
+                  "Coeff": -1
+                },
+                "End": {
+                  "Days": 0,
+                  "Coeff": 1
+                },
+                "UseIndexEnd": false
+              },
+              "IgnoreObservationPeriod": false,
+              "Criteria": {"ConditionOccurrence": {
+                "ConditionTypeExclude": false,
+                "CodesetId": 38
+              }},
+              "Occurrence": {
+                "Type": 2,
+                "IsDistinct": false,
+                "Count": 1
+              }
+            }
+          ],
+          "Type": "ANY",
+          "DemographicCriteriaList": [],
+          "Groups": []
+        }]
+      },
+      "name": "Severe outpatient"
+    }
+  ],
+  "PrimaryCriteria": {
+    "CriteriaList": [{"ConditionOccurrence": {
+      "ConditionTypeExclude": false,
+      "CodesetId": 36,
+      "First": true
+    }}],
+    "PrimaryCriteriaLimit": {"Type": "First"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 0
+    }
+  }
+}
