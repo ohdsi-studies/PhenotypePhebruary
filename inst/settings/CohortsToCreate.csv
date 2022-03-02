@@ -74,9 +74,11 @@ atlasId,cohortId,id,cohortName
 162,162,162,"[Phenotype Phebruary][HF] Cor Pulmonale (3Pe, 30Era)"
 163,163,163,"[Phenotype Phebruary][HF] Cor Pulmonale with inpatient or ER visit (3Pe, 30Era)"
 164,164,164,"[Phenotype Phebruary][HF] Cor Pulmonale with no inpatient or ER visit (3Pe, 30Era)"
+178,178,178,[Phenotype Phebruary][AKI] Acute Kidney Injury on or after 2012 (sensitive)
 169,169,169,[Phenotype Phebruary][CM] Hypertrophic Cardiomyopathy
 168,168,168,[Phenotype Phebruary][CM] Dilated Cardiomyopathy
 170,170,170,[Phenotype Phebruary][CM] Takotsubo cardiomyopathy
+179,179,179,[Phenotype Phebruary][AKI] Acute Kidney Injury on or after 2012 (specific)
 173,173,173,[Phenotype Phebruary][MS] Multiple Sclerosis by Widdifield NSJ 2015
 171,171,171,[Phenotype Phebruary][MS] Multiple Sclerosis Culpepper 3x_with an exit criteria
 174,174,174,[Phenotype Phebruary][MS] Multiple Sclerosis Culpepper 3x
