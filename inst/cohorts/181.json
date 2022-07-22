@@ -1,0 +1,1593 @@
+{
+  "ExpressionLimit": {"Type": "All"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {},
+  "ConceptSets": [
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 193782,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "46177005",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "End-stage renal disease",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "End-stage renal disease",
+      "id": 2
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4146536,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "265764009",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Renal dialysis",
+          "DOMAIN_ID": "Procedure",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Procedure",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "Dialysis",
+      "id": 3
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 197320,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "14669001",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Acute renal failure syndrome",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "Acute kidney injury (narrow definition) - Phenotype Phebruary",
+      "id": 5
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4013964,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "113075003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Creatinine measurement, serum",
+            "DOMAIN_ID": "Measurement",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37392176,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1000731000000107",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Serum creatinine level",
+            "DOMAIN_ID": "Measurement",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Observable Entity",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "Serum creatinine",
+      "id": 6
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37392926,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1010391000000109",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Fluid sample creatinine",
+            "DOMAIN_ID": "Measurement",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Observable Entity",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37208831,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1109451000000109",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Creatinine substance concentration in serum by enzymatic method",
+            "DOMAIN_ID": "Measurement",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Observable Entity",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37208830,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1109441000000106",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Creatinine substance concentration in serum by colorimetric method",
+            "DOMAIN_ID": "Measurement",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Observable Entity",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37392198,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1000991000000106",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Corrected serum creatinine level",
+            "DOMAIN_ID": "Measurement",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Observable Entity",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37392176,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1000731000000107",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Serum creatinine level",
+            "DOMAIN_ID": "Measurement",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Observable Entity",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37208596,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1107001000000108",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Creatinine substance concentration in serum",
+            "DOMAIN_ID": "Measurement",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Observable Entity",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37394438,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1032061000000108",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Creatinine level",
+            "DOMAIN_ID": "Measurement",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Observable Entity",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37392200,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1001011000000107",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Plasma creatinine level",
+            "DOMAIN_ID": "Measurement",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Observable Entity",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4013964,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "113075003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Creatinine measurement, serum",
+            "DOMAIN_ID": "Measurement",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        }
+      ]},
+      "name": "[MR]SCr",
+      "id": 7
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45557228,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "G40.119",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Localization-related (focal) (partial) symptomatic epilepsy and epileptic syndromes with simple partial seizures, intractable, without status epilepticus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "6-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1568306,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "G40.11",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Localization-related (focal) (partial) symptomatic epilepsy and epileptic syndromes with simple partial seizures, intractable",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1568304,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "G40.1",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Localization-related (focal) (partial) symptomatic epilepsy and epileptic syndromes with simple partial seizures",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4309257,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "422724001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Refractory localization-related epilepsy",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1568300,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "G40",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Epilepsy and recurrent seizures",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "3-char nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 374915,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "230381009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Localization-related epilepsy",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40483317,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "445355009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Refractory epilepsy",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 380378,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "84757009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Epilepsy",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "epilepsi",
+      "id": 8
+    }
+  ],
+  "EndStrategy": {"DateOffset": {
+    "DateField": "StartDate",
+    "Offset": 7
+  }},
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [],
+  "AdditionalCriteria": {
+    "CriteriaList": [{
+      "RestrictVisit": false,
+      "StartWindow": {
+        "UseEventEnd": false,
+        "Start": {
+          "Days": 0,
+          "Coeff": -1
+        },
+        "End": {"Coeff": 1},
+        "UseIndexEnd": false
+      },
+      "IgnoreObservationPeriod": false,
+      "Criteria": {"ObservationPeriod": {"UserDefinedPeriod": {"StartDate": "2011-12-31"}}},
+      "Occurrence": {
+        "Type": 2,
+        "IsDistinct": false,
+        "Count": 1
+      }
+    }],
+    "Type": "ANY",
+    "DemographicCriteriaList": [],
+    "Groups": []
+  },
+  "QualifiedLimit": {"Type": "All"},
+  "InclusionRules": [
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {"Coeff": -1},
+            "End": {
+              "Days": 365,
+              "Coeff": -1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": {
+            "UseEventEnd": true,
+            "Start": {
+              "Days": 0,
+              "Coeff": 1
+            },
+            "End": {"Coeff": 1},
+            "UseIndexEnd": false
+          },
+          "Criteria": {"ObservationPeriod": {}},
+          "Occurrence": {
+            "Type": 2,
+            "IsDistinct": false,
+            "Count": 1
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": []
+      },
+      "name": "Minimum prior observation period of 365 days"
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 365,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 7,
+              "Coeff": -1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "Criteria": {"ConditionOccurrence": {
+            "ConditionTypeExclude": false,
+            "CodesetId": 2
+          }},
+          "Occurrence": {
+            "Type": 0,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": []
+      },
+      "name": "No ESKD at baseline",
+      "description": "To exclude cases with a diagnosis of End-Stage Kidney Disease in the 365 days before AKI occurrence. Period from -365 to -7 to account for ESKD due to the index episode of AKI"
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 365,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 7,
+              "Coeff": -1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "Criteria": {"ProcedureOccurrence": {
+            "CodesetId": 3,
+            "ProcedureTypeExclude": false
+          }},
+          "Occurrence": {
+            "Type": 1,
+            "IsDistinct": false,
+            "Count": 3
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": []
+      },
+      "name": "No chronic dialysis at baseline",
+      "description": "To exclude all patients receiving chronic dialysis defined as more than 3 recorded events of dialysis in the 1 year- 7 days before index date"
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 30,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 1,
+              "Coeff": -1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "Criteria": {"ConditionOccurrence": {
+            "ConditionTypeExclude": false,
+            "CodesetId": 5
+          }},
+          "Occurrence": {
+            "Type": 0,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": []
+      },
+      "name": "Washout period with no AKI codes",
+      "description": "To rule out diagnosis codes that are follow ups (for example: check for status of recovery or progression, check sequelae, etc) from the actual event of AKI"
+    }
+  ],
+  "PrimaryCriteria": {
+    "CriteriaList": [
+      {"ConditionOccurrence": {
+        "ConditionTypeExclude": false,
+        "CodesetId": 5
+      }},
+      {"Measurement": {
+        "MeasurementTypeExclude": false,
+        "CorrelatedCriteria": {
+          "CriteriaList": [
+            {
+              "RestrictVisit": false,
+              "StartWindow": {
+                "UseEventEnd": false,
+                "Start": {"Coeff": -1},
+                "End": {"Coeff": 1},
+                "UseIndexEnd": false
+              },
+              "IgnoreObservationPeriod": false,
+              "Criteria": {"Measurement": {
+                "MeasurementTypeExclude": false,
+                "CorrelatedCriteria": {
+                  "CriteriaList": [{
+                    "RestrictVisit": false,
+                    "StartWindow": {
+                      "UseEventEnd": false,
+                      "Start": {"Coeff": -1},
+                      "End": {
+                        "Days": 7,
+                        "Coeff": 1
+                      },
+                      "UseIndexEnd": false
+                    },
+                    "IgnoreObservationPeriod": false,
+                    "Criteria": {"Measurement": {
+                      "MeasurementTypeExclude": false,
+                      "CorrelatedCriteria": {
+                        "CriteriaList": [],
+                        "Type": "ALL",
+                        "DemographicCriteriaList": [],
+                        "Groups": []
+                      },
+                      "CodesetId": 6,
+                      "ValueAsNumber": {
+                        "Op": "bt",
+                        "Extent": 1000,
+                        "Value": 78
+                      },
+                      "Unit": [
+                        {
+                          "INVALID_REASON_CAPTION": "Unknown",
+                          "CONCEPT_ID": 8749,
+                          "STANDARD_CONCEPT": null,
+                          "CONCEPT_CODE": "umol/L",
+                          "VOCABULARY_ID": "UCUM",
+                          "CONCEPT_NAME": "micromole per liter",
+                          "DOMAIN_ID": "Unit",
+                          "STANDARD_CONCEPT_CAPTION": "Unknown",
+                          "CONCEPT_CLASS_ID": null,
+                          "INVALID_REASON": null
+                        },
+                        {
+                          "INVALID_REASON_CAPTION": "Unknown",
+                          "CONCEPT_ID": 8753,
+                          "STANDARD_CONCEPT": null,
+                          "CONCEPT_CODE": "mmol/L",
+                          "VOCABULARY_ID": "UCUM",
+                          "CONCEPT_NAME": "millimole per liter",
+                          "DOMAIN_ID": "Unit",
+                          "STANDARD_CONCEPT_CAPTION": "Unknown",
+                          "CONCEPT_CLASS_ID": null,
+                          "INVALID_REASON": null
+                        },
+                        {
+                          "INVALID_REASON_CAPTION": "Unknown",
+                          "CONCEPT_ID": 9586,
+                          "STANDARD_CONCEPT": null,
+                          "CONCEPT_CODE": "mol/L",
+                          "VOCABULARY_ID": "UCUM",
+                          "CONCEPT_NAME": "mole per liter",
+                          "DOMAIN_ID": "Unit",
+                          "STANDARD_CONCEPT_CAPTION": "Unknown",
+                          "CONCEPT_CLASS_ID": null,
+                          "INVALID_REASON": null
+                        },
+                        {
+                          "INVALID_REASON_CAPTION": "Unknown",
+                          "CONCEPT_ID": 4124446,
+                          "STANDARD_CONCEPT": null,
+                          "CONCEPT_CODE": "258812007",
+                          "VOCABULARY_ID": "SNOMED",
+                          "CONCEPT_NAME": "mol/L",
+                          "DOMAIN_ID": "Unit",
+                          "STANDARD_CONCEPT_CAPTION": "Unknown",
+                          "CONCEPT_CLASS_ID": null,
+                          "INVALID_REASON": null
+                        },
+                        {
+                          "INVALID_REASON_CAPTION": "Unknown",
+                          "CONCEPT_ID": 4121402,
+                          "STANDARD_CONCEPT": null,
+                          "CONCEPT_CODE": "258813002",
+                          "VOCABULARY_ID": "SNOMED",
+                          "CONCEPT_NAME": "mmol/L",
+                          "DOMAIN_ID": "Unit",
+                          "STANDARD_CONCEPT_CAPTION": "Unknown",
+                          "CONCEPT_CLASS_ID": null,
+                          "INVALID_REASON": null
+                        },
+                        {
+                          "INVALID_REASON_CAPTION": "Unknown",
+                          "CONCEPT_ID": 4120726,
+                          "STANDARD_CONCEPT": null,
+                          "CONCEPT_CODE": "258814008",
+                          "VOCABULARY_ID": "SNOMED",
+                          "CONCEPT_NAME": "umol/L",
+                          "DOMAIN_ID": "Unit",
+                          "STANDARD_CONCEPT_CAPTION": "Unknown",
+                          "CONCEPT_CLASS_ID": null,
+                          "INVALID_REASON": null
+                        },
+                        {
+                          "INVALID_REASON_CAPTION": "Unknown",
+                          "CONCEPT_ID": 8750,
+                          "STANDARD_CONCEPT": null,
+                          "CONCEPT_CODE": "10*-6.[U]/L",
+                          "VOCABULARY_ID": "UCUM",
+                          "CONCEPT_NAME": "microunit per liter",
+                          "DOMAIN_ID": "Unit",
+                          "STANDARD_CONCEPT_CAPTION": "Unknown",
+                          "CONCEPT_CLASS_ID": null,
+                          "INVALID_REASON": null
+                        },
+                        {
+                          "INVALID_REASON_CAPTION": "Unknown",
+                          "CONCEPT_ID": 8647,
+                          "STANDARD_CONCEPT": null,
+                          "CONCEPT_CODE": "/uL",
+                          "VOCABULARY_ID": "UCUM",
+                          "CONCEPT_NAME": "per microliter",
+                          "DOMAIN_ID": "Unit",
+                          "STANDARD_CONCEPT_CAPTION": "Unknown",
+                          "CONCEPT_CLASS_ID": null,
+                          "INVALID_REASON": null
+                        },
+                        {
+                          "INVALID_REASON_CAPTION": "Unknown",
+                          "CONCEPT_ID": 4117651,
+                          "STANDARD_CONCEPT": null,
+                          "CONCEPT_CODE": "258917000",
+                          "VOCABULARY_ID": "SNOMED",
+                          "CONCEPT_NAME": "Micromole per gram of creatinine",
+                          "DOMAIN_ID": "Unit",
+                          "STANDARD_CONCEPT_CAPTION": "Unknown",
+                          "CONCEPT_CLASS_ID": null,
+                          "INVALID_REASON": null
+                        },
+                        {
+                          "INVALID_REASON_CAPTION": "Unknown",
+                          "CONCEPT_ID": 9015,
+                          "STANDARD_CONCEPT": null,
+                          "CONCEPT_CODE": "umol/g{creat}",
+                          "VOCABULARY_ID": "UCUM",
+                          "CONCEPT_NAME": "micromole per gram of creatinine",
+                          "DOMAIN_ID": "Unit",
+                          "STANDARD_CONCEPT_CAPTION": "Unknown",
+                          "CONCEPT_CLASS_ID": null,
+                          "INVALID_REASON": null
+                        },
+                        {
+                          "INVALID_REASON_CAPTION": "Unknown",
+                          "CONCEPT_ID": 9573,
+                          "STANDARD_CONCEPT": null,
+                          "CONCEPT_CODE": "mmol",
+                          "VOCABULARY_ID": "UCUM",
+                          "CONCEPT_NAME": "millimole",
+                          "DOMAIN_ID": "Unit",
+                          "STANDARD_CONCEPT_CAPTION": "Unknown",
+                          "CONCEPT_CLASS_ID": null,
+                          "INVALID_REASON": null
+                        }
+                      ]
+                    }},
+                    "Occurrence": {
+                      "Type": 2,
+                      "IsDistinct": false,
+                      "Count": 1
+                    }
+                  }],
+                  "Type": "ALL",
+                  "DemographicCriteriaList": [],
+                  "Groups": []
+                },
+                "CodesetId": 6,
+                "ValueAsNumber": {
+                  "Op": "bt",
+                  "Extent": 50,
+                  "Value": 10
+                },
+                "Unit": [
+                  {
+                    "INVALID_REASON_CAPTION": "Unknown",
+                    "CONCEPT_ID": 8749,
+                    "STANDARD_CONCEPT": null,
+                    "CONCEPT_CODE": "umol/L",
+                    "VOCABULARY_ID": "UCUM",
+                    "CONCEPT_NAME": "micromole per liter",
+                    "DOMAIN_ID": "Unit",
+                    "STANDARD_CONCEPT_CAPTION": "Unknown",
+                    "CONCEPT_CLASS_ID": null,
+                    "INVALID_REASON": null
+                  },
+                  {
+                    "INVALID_REASON_CAPTION": "Unknown",
+                    "CONCEPT_ID": 8753,
+                    "STANDARD_CONCEPT": null,
+                    "CONCEPT_CODE": "mmol/L",
+                    "VOCABULARY_ID": "UCUM",
+                    "CONCEPT_NAME": "millimole per liter",
+                    "DOMAIN_ID": "Unit",
+                    "STANDARD_CONCEPT_CAPTION": "Unknown",
+                    "CONCEPT_CLASS_ID": null,
+                    "INVALID_REASON": null
+                  },
+                  {
+                    "INVALID_REASON_CAPTION": "Unknown",
+                    "CONCEPT_ID": 9586,
+                    "STANDARD_CONCEPT": null,
+                    "CONCEPT_CODE": "mol/L",
+                    "VOCABULARY_ID": "UCUM",
+                    "CONCEPT_NAME": "mole per liter",
+                    "DOMAIN_ID": "Unit",
+                    "STANDARD_CONCEPT_CAPTION": "Unknown",
+                    "CONCEPT_CLASS_ID": null,
+                    "INVALID_REASON": null
+                  },
+                  {
+                    "INVALID_REASON_CAPTION": "Unknown",
+                    "CONCEPT_ID": 4124446,
+                    "STANDARD_CONCEPT": null,
+                    "CONCEPT_CODE": "258812007",
+                    "VOCABULARY_ID": "SNOMED",
+                    "CONCEPT_NAME": "mol/L",
+                    "DOMAIN_ID": "Unit",
+                    "STANDARD_CONCEPT_CAPTION": "Unknown",
+                    "CONCEPT_CLASS_ID": null,
+                    "INVALID_REASON": null
+                  },
+                  {
+                    "INVALID_REASON_CAPTION": "Unknown",
+                    "CONCEPT_ID": 4121402,
+                    "STANDARD_CONCEPT": null,
+                    "CONCEPT_CODE": "258813002",
+                    "VOCABULARY_ID": "SNOMED",
+                    "CONCEPT_NAME": "mmol/L",
+                    "DOMAIN_ID": "Unit",
+                    "STANDARD_CONCEPT_CAPTION": "Unknown",
+                    "CONCEPT_CLASS_ID": null,
+                    "INVALID_REASON": null
+                  },
+                  {
+                    "INVALID_REASON_CAPTION": "Unknown",
+                    "CONCEPT_ID": 4120726,
+                    "STANDARD_CONCEPT": null,
+                    "CONCEPT_CODE": "258814008",
+                    "VOCABULARY_ID": "SNOMED",
+                    "CONCEPT_NAME": "umol/L",
+                    "DOMAIN_ID": "Unit",
+                    "STANDARD_CONCEPT_CAPTION": "Unknown",
+                    "CONCEPT_CLASS_ID": null,
+                    "INVALID_REASON": null
+                  },
+                  {
+                    "INVALID_REASON_CAPTION": "Unknown",
+                    "CONCEPT_ID": 8750,
+                    "STANDARD_CONCEPT": null,
+                    "CONCEPT_CODE": "10*-6.[U]/L",
+                    "VOCABULARY_ID": "UCUM",
+                    "CONCEPT_NAME": "microunit per liter",
+                    "DOMAIN_ID": "Unit",
+                    "STANDARD_CONCEPT_CAPTION": "Unknown",
+                    "CONCEPT_CLASS_ID": null,
+                    "INVALID_REASON": null
+                  },
+                  {
+                    "INVALID_REASON_CAPTION": "Unknown",
+                    "CONCEPT_ID": 8647,
+                    "STANDARD_CONCEPT": null,
+                    "CONCEPT_CODE": "/uL",
+                    "VOCABULARY_ID": "UCUM",
+                    "CONCEPT_NAME": "per microliter",
+                    "DOMAIN_ID": "Unit",
+                    "STANDARD_CONCEPT_CAPTION": "Unknown",
+                    "CONCEPT_CLASS_ID": null,
+                    "INVALID_REASON": null
+                  },
+                  {
+                    "INVALID_REASON_CAPTION": "Unknown",
+                    "CONCEPT_ID": 4117651,
+                    "STANDARD_CONCEPT": null,
+                    "CONCEPT_CODE": "258917000",
+                    "VOCABULARY_ID": "SNOMED",
+                    "CONCEPT_NAME": "Micromole per gram of creatinine",
+                    "DOMAIN_ID": "Unit",
+                    "STANDARD_CONCEPT_CAPTION": "Unknown",
+                    "CONCEPT_CLASS_ID": null,
+                    "INVALID_REASON": null
+                  },
+                  {
+                    "INVALID_REASON_CAPTION": "Unknown",
+                    "CONCEPT_ID": 9015,
+                    "STANDARD_CONCEPT": null,
+                    "CONCEPT_CODE": "umol/g{creat}",
+                    "VOCABULARY_ID": "UCUM",
+                    "CONCEPT_NAME": "micromole per gram of creatinine",
+                    "DOMAIN_ID": "Unit",
+                    "STANDARD_CONCEPT_CAPTION": "Unknown",
+                    "CONCEPT_CLASS_ID": null,
+                    "INVALID_REASON": null
+                  },
+                  {
+                    "INVALID_REASON_CAPTION": "Unknown",
+                    "CONCEPT_ID": 9573,
+                    "STANDARD_CONCEPT": null,
+                    "CONCEPT_CODE": "mmol",
+                    "VOCABULARY_ID": "UCUM",
+                    "CONCEPT_NAME": "millimole",
+                    "DOMAIN_ID": "Unit",
+                    "STANDARD_CONCEPT_CAPTION": "Unknown",
+                    "CONCEPT_CLASS_ID": null,
+                    "INVALID_REASON": null
+                  }
+                ]
+              }},
+              "Occurrence": {
+                "Type": 2,
+                "IsDistinct": false,
+                "Count": 1
+              }
+            },
+            {
+              "RestrictVisit": false,
+              "StartWindow": {
+                "UseEventEnd": false,
+                "Start": {"Coeff": -1},
+                "End": {"Coeff": 1},
+                "UseIndexEnd": false
+              },
+              "IgnoreObservationPeriod": false,
+              "Criteria": {"Measurement": {
+                "MeasurementTypeExclude": false,
+                "CorrelatedCriteria": {
+                  "CriteriaList": [{
+                    "RestrictVisit": false,
+                    "StartWindow": {
+                      "UseEventEnd": false,
+                      "Start": {
+                        "Days": 0,
+                        "Coeff": -1
+                      },
+                      "End": {
+                        "Days": 7,
+                        "Coeff": 1
+                      },
+                      "UseIndexEnd": false
+                    },
+                    "IgnoreObservationPeriod": false,
+                    "Criteria": {"Measurement": {
+                      "MeasurementTypeExclude": false,
+                      "CodesetId": 6,
+                      "ValueAsNumber": {
+                        "Op": "bt",
+                        "Extent": 1000,
+                        "Value": 178.94999999999998863132
+                      },
+                      "Unit": [
+                        {
+                          "INVALID_REASON_CAPTION": "Unknown",
+                          "CONCEPT_ID": 8749,
+                          "STANDARD_CONCEPT": null,
+                          "CONCEPT_CODE": "umol/L",
+                          "VOCABULARY_ID": "UCUM",
+                          "CONCEPT_NAME": "micromole per liter",
+                          "DOMAIN_ID": "Unit",
+                          "STANDARD_CONCEPT_CAPTION": "Unknown",
+                          "CONCEPT_CLASS_ID": null,
+                          "INVALID_REASON": null
+                        },
+                        {
+                          "INVALID_REASON_CAPTION": "Unknown",
+                          "CONCEPT_ID": 8753,
+                          "STANDARD_CONCEPT": null,
+                          "CONCEPT_CODE": "mmol/L",
+                          "VOCABULARY_ID": "UCUM",
+                          "CONCEPT_NAME": "millimole per liter",
+                          "DOMAIN_ID": "Unit",
+                          "STANDARD_CONCEPT_CAPTION": "Unknown",
+                          "CONCEPT_CLASS_ID": null,
+                          "INVALID_REASON": null
+                        },
+                        {
+                          "INVALID_REASON_CAPTION": "Unknown",
+                          "CONCEPT_ID": 9586,
+                          "STANDARD_CONCEPT": null,
+                          "CONCEPT_CODE": "mol/L",
+                          "VOCABULARY_ID": "UCUM",
+                          "CONCEPT_NAME": "mole per liter",
+                          "DOMAIN_ID": "Unit",
+                          "STANDARD_CONCEPT_CAPTION": "Unknown",
+                          "CONCEPT_CLASS_ID": null,
+                          "INVALID_REASON": null
+                        },
+                        {
+                          "INVALID_REASON_CAPTION": "Unknown",
+                          "CONCEPT_ID": 4124446,
+                          "STANDARD_CONCEPT": null,
+                          "CONCEPT_CODE": "258812007",
+                          "VOCABULARY_ID": "SNOMED",
+                          "CONCEPT_NAME": "mol/L",
+                          "DOMAIN_ID": "Unit",
+                          "STANDARD_CONCEPT_CAPTION": "Unknown",
+                          "CONCEPT_CLASS_ID": null,
+                          "INVALID_REASON": null
+                        },
+                        {
+                          "INVALID_REASON_CAPTION": "Unknown",
+                          "CONCEPT_ID": 4121402,
+                          "STANDARD_CONCEPT": null,
+                          "CONCEPT_CODE": "258813002",
+                          "VOCABULARY_ID": "SNOMED",
+                          "CONCEPT_NAME": "mmol/L",
+                          "DOMAIN_ID": "Unit",
+                          "STANDARD_CONCEPT_CAPTION": "Unknown",
+                          "CONCEPT_CLASS_ID": null,
+                          "INVALID_REASON": null
+                        },
+                        {
+                          "INVALID_REASON_CAPTION": "Unknown",
+                          "CONCEPT_ID": 4120726,
+                          "STANDARD_CONCEPT": null,
+                          "CONCEPT_CODE": "258814008",
+                          "VOCABULARY_ID": "SNOMED",
+                          "CONCEPT_NAME": "umol/L",
+                          "DOMAIN_ID": "Unit",
+                          "STANDARD_CONCEPT_CAPTION": "Unknown",
+                          "CONCEPT_CLASS_ID": null,
+                          "INVALID_REASON": null
+                        },
+                        {
+                          "INVALID_REASON_CAPTION": "Unknown",
+                          "CONCEPT_ID": 8750,
+                          "STANDARD_CONCEPT": null,
+                          "CONCEPT_CODE": "10*-6.[U]/L",
+                          "VOCABULARY_ID": "UCUM",
+                          "CONCEPT_NAME": "microunit per liter",
+                          "DOMAIN_ID": "Unit",
+                          "STANDARD_CONCEPT_CAPTION": "Unknown",
+                          "CONCEPT_CLASS_ID": null,
+                          "INVALID_REASON": null
+                        },
+                        {
+                          "INVALID_REASON_CAPTION": "Unknown",
+                          "CONCEPT_ID": 8647,
+                          "STANDARD_CONCEPT": null,
+                          "CONCEPT_CODE": "/uL",
+                          "VOCABULARY_ID": "UCUM",
+                          "CONCEPT_NAME": "per microliter",
+                          "DOMAIN_ID": "Unit",
+                          "STANDARD_CONCEPT_CAPTION": "Unknown",
+                          "CONCEPT_CLASS_ID": null,
+                          "INVALID_REASON": null
+                        },
+                        {
+                          "INVALID_REASON_CAPTION": "Unknown",
+                          "CONCEPT_ID": 4117651,
+                          "STANDARD_CONCEPT": null,
+                          "CONCEPT_CODE": "258917000",
+                          "VOCABULARY_ID": "SNOMED",
+                          "CONCEPT_NAME": "Micromole per gram of creatinine",
+                          "DOMAIN_ID": "Unit",
+                          "STANDARD_CONCEPT_CAPTION": "Unknown",
+                          "CONCEPT_CLASS_ID": null,
+                          "INVALID_REASON": null
+                        },
+                        {
+                          "INVALID_REASON_CAPTION": "Unknown",
+                          "CONCEPT_ID": 9015,
+                          "STANDARD_CONCEPT": null,
+                          "CONCEPT_CODE": "umol/g{creat}",
+                          "VOCABULARY_ID": "UCUM",
+                          "CONCEPT_NAME": "micromole per gram of creatinine",
+                          "DOMAIN_ID": "Unit",
+                          "STANDARD_CONCEPT_CAPTION": "Unknown",
+                          "CONCEPT_CLASS_ID": null,
+                          "INVALID_REASON": null
+                        },
+                        {
+                          "INVALID_REASON_CAPTION": "Unknown",
+                          "CONCEPT_ID": 9573,
+                          "STANDARD_CONCEPT": null,
+                          "CONCEPT_CODE": "mmol",
+                          "VOCABULARY_ID": "UCUM",
+                          "CONCEPT_NAME": "millimole",
+                          "DOMAIN_ID": "Unit",
+                          "STANDARD_CONCEPT_CAPTION": "Unknown",
+                          "CONCEPT_CLASS_ID": null,
+                          "INVALID_REASON": null
+                        }
+                      ]
+                    }},
+                    "Occurrence": {
+                      "Type": 2,
+                      "IsDistinct": false,
+                      "Count": 1
+                    }
+                  }],
+                  "Type": "ALL",
+                  "DemographicCriteriaList": [],
+                  "Groups": []
+                },
+                "CodesetId": 6,
+                "ValueAsNumber": {
+                  "Op": "bt",
+                  "Extent": 119.29999999999999715783,
+                  "Value": 10
+                },
+                "Unit": [
+                  {
+                    "INVALID_REASON_CAPTION": "Unknown",
+                    "CONCEPT_ID": 8749,
+                    "STANDARD_CONCEPT": null,
+                    "CONCEPT_CODE": "umol/L",
+                    "VOCABULARY_ID": "UCUM",
+                    "CONCEPT_NAME": "micromole per liter",
+                    "DOMAIN_ID": "Unit",
+                    "STANDARD_CONCEPT_CAPTION": "Unknown",
+                    "CONCEPT_CLASS_ID": null,
+                    "INVALID_REASON": null
+                  },
+                  {
+                    "INVALID_REASON_CAPTION": "Unknown",
+                    "CONCEPT_ID": 8753,
+                    "STANDARD_CONCEPT": null,
+                    "CONCEPT_CODE": "mmol/L",
+                    "VOCABULARY_ID": "UCUM",
+                    "CONCEPT_NAME": "millimole per liter",
+                    "DOMAIN_ID": "Unit",
+                    "STANDARD_CONCEPT_CAPTION": "Unknown",
+                    "CONCEPT_CLASS_ID": null,
+                    "INVALID_REASON": null
+                  },
+                  {
+                    "INVALID_REASON_CAPTION": "Unknown",
+                    "CONCEPT_ID": 9586,
+                    "STANDARD_CONCEPT": null,
+                    "CONCEPT_CODE": "mol/L",
+                    "VOCABULARY_ID": "UCUM",
+                    "CONCEPT_NAME": "mole per liter",
+                    "DOMAIN_ID": "Unit",
+                    "STANDARD_CONCEPT_CAPTION": "Unknown",
+                    "CONCEPT_CLASS_ID": null,
+                    "INVALID_REASON": null
+                  },
+                  {
+                    "INVALID_REASON_CAPTION": "Unknown",
+                    "CONCEPT_ID": 4124446,
+                    "STANDARD_CONCEPT": null,
+                    "CONCEPT_CODE": "258812007",
+                    "VOCABULARY_ID": "SNOMED",
+                    "CONCEPT_NAME": "mol/L",
+                    "DOMAIN_ID": "Unit",
+                    "STANDARD_CONCEPT_CAPTION": "Unknown",
+                    "CONCEPT_CLASS_ID": null,
+                    "INVALID_REASON": null
+                  },
+                  {
+                    "INVALID_REASON_CAPTION": "Unknown",
+                    "CONCEPT_ID": 4121402,
+                    "STANDARD_CONCEPT": null,
+                    "CONCEPT_CODE": "258813002",
+                    "VOCABULARY_ID": "SNOMED",
+                    "CONCEPT_NAME": "mmol/L",
+                    "DOMAIN_ID": "Unit",
+                    "STANDARD_CONCEPT_CAPTION": "Unknown",
+                    "CONCEPT_CLASS_ID": null,
+                    "INVALID_REASON": null
+                  },
+                  {
+                    "INVALID_REASON_CAPTION": "Unknown",
+                    "CONCEPT_ID": 4120726,
+                    "STANDARD_CONCEPT": null,
+                    "CONCEPT_CODE": "258814008",
+                    "VOCABULARY_ID": "SNOMED",
+                    "CONCEPT_NAME": "umol/L",
+                    "DOMAIN_ID": "Unit",
+                    "STANDARD_CONCEPT_CAPTION": "Unknown",
+                    "CONCEPT_CLASS_ID": null,
+                    "INVALID_REASON": null
+                  },
+                  {
+                    "INVALID_REASON_CAPTION": "Unknown",
+                    "CONCEPT_ID": 8750,
+                    "STANDARD_CONCEPT": null,
+                    "CONCEPT_CODE": "10*-6.[U]/L",
+                    "VOCABULARY_ID": "UCUM",
+                    "CONCEPT_NAME": "microunit per liter",
+                    "DOMAIN_ID": "Unit",
+                    "STANDARD_CONCEPT_CAPTION": "Unknown",
+                    "CONCEPT_CLASS_ID": null,
+                    "INVALID_REASON": null
+                  },
+                  {
+                    "INVALID_REASON_CAPTION": "Unknown",
+                    "CONCEPT_ID": 8647,
+                    "STANDARD_CONCEPT": null,
+                    "CONCEPT_CODE": "/uL",
+                    "VOCABULARY_ID": "UCUM",
+                    "CONCEPT_NAME": "per microliter",
+                    "DOMAIN_ID": "Unit",
+                    "STANDARD_CONCEPT_CAPTION": "Unknown",
+                    "CONCEPT_CLASS_ID": null,
+                    "INVALID_REASON": null
+                  },
+                  {
+                    "INVALID_REASON_CAPTION": "Unknown",
+                    "CONCEPT_ID": 4117651,
+                    "STANDARD_CONCEPT": null,
+                    "CONCEPT_CODE": "258917000",
+                    "VOCABULARY_ID": "SNOMED",
+                    "CONCEPT_NAME": "Micromole per gram of creatinine",
+                    "DOMAIN_ID": "Unit",
+                    "STANDARD_CONCEPT_CAPTION": "Unknown",
+                    "CONCEPT_CLASS_ID": null,
+                    "INVALID_REASON": null
+                  },
+                  {
+                    "INVALID_REASON_CAPTION": "Unknown",
+                    "CONCEPT_ID": 9015,
+                    "STANDARD_CONCEPT": null,
+                    "CONCEPT_CODE": "umol/g{creat}",
+                    "VOCABULARY_ID": "UCUM",
+                    "CONCEPT_NAME": "micromole per gram of creatinine",
+                    "DOMAIN_ID": "Unit",
+                    "STANDARD_CONCEPT_CAPTION": "Unknown",
+                    "CONCEPT_CLASS_ID": null,
+                    "INVALID_REASON": null
+                  },
+                  {
+                    "INVALID_REASON_CAPTION": "Unknown",
+                    "CONCEPT_ID": 9573,
+                    "STANDARD_CONCEPT": null,
+                    "CONCEPT_CODE": "mmol",
+                    "VOCABULARY_ID": "UCUM",
+                    "CONCEPT_NAME": "millimole",
+                    "DOMAIN_ID": "Unit",
+                    "STANDARD_CONCEPT_CAPTION": "Unknown",
+                    "CONCEPT_CLASS_ID": null,
+                    "INVALID_REASON": null
+                  }
+                ]
+              }},
+              "Occurrence": {
+                "Type": 2,
+                "IsDistinct": false,
+                "Count": 1
+              }
+            },
+            {
+              "RestrictVisit": false,
+              "StartWindow": {
+                "UseEventEnd": false,
+                "Start": {"Coeff": -1},
+                "End": {"Coeff": 1},
+                "UseIndexEnd": false
+              },
+              "IgnoreObservationPeriod": false,
+              "Criteria": {"Measurement": {
+                "MeasurementTypeExclude": false,
+                "CorrelatedCriteria": {
+                  "CriteriaList": [{
+                    "RestrictVisit": false,
+                    "StartWindow": {
+                      "UseEventEnd": false,
+                      "Start": {
+                        "Days": 0,
+                        "Coeff": -1
+                      },
+                      "End": {
+                        "Days": 7,
+                        "Coeff": 1
+                      },
+                      "UseIndexEnd": false
+                    },
+                    "IgnoreObservationPeriod": false,
+                    "Criteria": {"Measurement": {
+                      "MeasurementTypeExclude": false,
+                      "CodesetId": 6,
+                      "ValueAsNumber": {
+                        "Op": "bt",
+                        "Extent": 1000,
+                        "Value": 192
+                      },
+                      "Unit": [
+                        {
+                          "INVALID_REASON_CAPTION": "Unknown",
+                          "CONCEPT_ID": 8749,
+                          "STANDARD_CONCEPT": null,
+                          "CONCEPT_CODE": "umol/L",
+                          "VOCABULARY_ID": "UCUM",
+                          "CONCEPT_NAME": "micromole per liter",
+                          "DOMAIN_ID": "Unit",
+                          "STANDARD_CONCEPT_CAPTION": "Unknown",
+                          "CONCEPT_CLASS_ID": null,
+                          "INVALID_REASON": null
+                        },
+                        {
+                          "INVALID_REASON_CAPTION": "Unknown",
+                          "CONCEPT_ID": 8753,
+                          "STANDARD_CONCEPT": null,
+                          "CONCEPT_CODE": "mmol/L",
+                          "VOCABULARY_ID": "UCUM",
+                          "CONCEPT_NAME": "millimole per liter",
+                          "DOMAIN_ID": "Unit",
+                          "STANDARD_CONCEPT_CAPTION": "Unknown",
+                          "CONCEPT_CLASS_ID": null,
+                          "INVALID_REASON": null
+                        },
+                        {
+                          "INVALID_REASON_CAPTION": "Unknown",
+                          "CONCEPT_ID": 9586,
+                          "STANDARD_CONCEPT": null,
+                          "CONCEPT_CODE": "mol/L",
+                          "VOCABULARY_ID": "UCUM",
+                          "CONCEPT_NAME": "mole per liter",
+                          "DOMAIN_ID": "Unit",
+                          "STANDARD_CONCEPT_CAPTION": "Unknown",
+                          "CONCEPT_CLASS_ID": null,
+                          "INVALID_REASON": null
+                        },
+                        {
+                          "INVALID_REASON_CAPTION": "Unknown",
+                          "CONCEPT_ID": 4124446,
+                          "STANDARD_CONCEPT": null,
+                          "CONCEPT_CODE": "258812007",
+                          "VOCABULARY_ID": "SNOMED",
+                          "CONCEPT_NAME": "mol/L",
+                          "DOMAIN_ID": "Unit",
+                          "STANDARD_CONCEPT_CAPTION": "Unknown",
+                          "CONCEPT_CLASS_ID": null,
+                          "INVALID_REASON": null
+                        },
+                        {
+                          "INVALID_REASON_CAPTION": "Unknown",
+                          "CONCEPT_ID": 4121402,
+                          "STANDARD_CONCEPT": null,
+                          "CONCEPT_CODE": "258813002",
+                          "VOCABULARY_ID": "SNOMED",
+                          "CONCEPT_NAME": "mmol/L",
+                          "DOMAIN_ID": "Unit",
+                          "STANDARD_CONCEPT_CAPTION": "Unknown",
+                          "CONCEPT_CLASS_ID": null,
+                          "INVALID_REASON": null
+                        },
+                        {
+                          "INVALID_REASON_CAPTION": "Unknown",
+                          "CONCEPT_ID": 4120726,
+                          "STANDARD_CONCEPT": null,
+                          "CONCEPT_CODE": "258814008",
+                          "VOCABULARY_ID": "SNOMED",
+                          "CONCEPT_NAME": "umol/L",
+                          "DOMAIN_ID": "Unit",
+                          "STANDARD_CONCEPT_CAPTION": "Unknown",
+                          "CONCEPT_CLASS_ID": null,
+                          "INVALID_REASON": null
+                        },
+                        {
+                          "INVALID_REASON_CAPTION": "Unknown",
+                          "CONCEPT_ID": 8750,
+                          "STANDARD_CONCEPT": null,
+                          "CONCEPT_CODE": "10*-6.[U]/L",
+                          "VOCABULARY_ID": "UCUM",
+                          "CONCEPT_NAME": "microunit per liter",
+                          "DOMAIN_ID": "Unit",
+                          "STANDARD_CONCEPT_CAPTION": "Unknown",
+                          "CONCEPT_CLASS_ID": null,
+                          "INVALID_REASON": null
+                        },
+                        {
+                          "INVALID_REASON_CAPTION": "Unknown",
+                          "CONCEPT_ID": 8647,
+                          "STANDARD_CONCEPT": null,
+                          "CONCEPT_CODE": "/uL",
+                          "VOCABULARY_ID": "UCUM",
+                          "CONCEPT_NAME": "per microliter",
+                          "DOMAIN_ID": "Unit",
+                          "STANDARD_CONCEPT_CAPTION": "Unknown",
+                          "CONCEPT_CLASS_ID": null,
+                          "INVALID_REASON": null
+                        },
+                        {
+                          "INVALID_REASON_CAPTION": "Unknown",
+                          "CONCEPT_ID": 4117651,
+                          "STANDARD_CONCEPT": null,
+                          "CONCEPT_CODE": "258917000",
+                          "VOCABULARY_ID": "SNOMED",
+                          "CONCEPT_NAME": "Micromole per gram of creatinine",
+                          "DOMAIN_ID": "Unit",
+                          "STANDARD_CONCEPT_CAPTION": "Unknown",
+                          "CONCEPT_CLASS_ID": null,
+                          "INVALID_REASON": null
+                        },
+                        {
+                          "INVALID_REASON_CAPTION": "Unknown",
+                          "CONCEPT_ID": 9015,
+                          "STANDARD_CONCEPT": null,
+                          "CONCEPT_CODE": "umol/g{creat}",
+                          "VOCABULARY_ID": "UCUM",
+                          "CONCEPT_NAME": "micromole per gram of creatinine",
+                          "DOMAIN_ID": "Unit",
+                          "STANDARD_CONCEPT_CAPTION": "Unknown",
+                          "CONCEPT_CLASS_ID": null,
+                          "INVALID_REASON": null
+                        },
+                        {
+                          "INVALID_REASON_CAPTION": "Unknown",
+                          "CONCEPT_ID": 9573,
+                          "STANDARD_CONCEPT": null,
+                          "CONCEPT_CODE": "mmol",
+                          "VOCABULARY_ID": "UCUM",
+                          "CONCEPT_NAME": "millimole",
+                          "DOMAIN_ID": "Unit",
+                          "STANDARD_CONCEPT_CAPTION": "Unknown",
+                          "CONCEPT_CLASS_ID": null,
+                          "INVALID_REASON": null
+                        }
+                      ]
+                    }},
+                    "Occurrence": {
+                      "Type": 2,
+                      "IsDistinct": false,
+                      "Count": 1
+                    }
+                  }],
+                  "Type": "ALL",
+                  "DemographicCriteriaList": [],
+                  "Groups": []
+                },
+                "CodesetId": 6,
+                "ValueAsNumber": {
+                  "Op": "bt",
+                  "Extent": 160,
+                  "Value": 10
+                },
+                "Unit": [
+                  {
+                    "INVALID_REASON_CAPTION": "Unknown",
+                    "CONCEPT_ID": 8749,
+                    "STANDARD_CONCEPT": null,
+                    "CONCEPT_CODE": "umol/L",
+                    "VOCABULARY_ID": "UCUM",
+                    "CONCEPT_NAME": "micromole per liter",
+                    "DOMAIN_ID": "Unit",
+                    "STANDARD_CONCEPT_CAPTION": "Unknown",
+                    "CONCEPT_CLASS_ID": null,
+                    "INVALID_REASON": null
+                  },
+                  {
+                    "INVALID_REASON_CAPTION": "Unknown",
+                    "CONCEPT_ID": 8753,
+                    "STANDARD_CONCEPT": null,
+                    "CONCEPT_CODE": "mmol/L",
+                    "VOCABULARY_ID": "UCUM",
+                    "CONCEPT_NAME": "millimole per liter",
+                    "DOMAIN_ID": "Unit",
+                    "STANDARD_CONCEPT_CAPTION": "Unknown",
+                    "CONCEPT_CLASS_ID": null,
+                    "INVALID_REASON": null
+                  },
+                  {
+                    "INVALID_REASON_CAPTION": "Unknown",
+                    "CONCEPT_ID": 9586,
+                    "STANDARD_CONCEPT": null,
+                    "CONCEPT_CODE": "mol/L",
+                    "VOCABULARY_ID": "UCUM",
+                    "CONCEPT_NAME": "mole per liter",
+                    "DOMAIN_ID": "Unit",
+                    "STANDARD_CONCEPT_CAPTION": "Unknown",
+                    "CONCEPT_CLASS_ID": null,
+                    "INVALID_REASON": null
+                  },
+                  {
+                    "INVALID_REASON_CAPTION": "Unknown",
+                    "CONCEPT_ID": 4124446,
+                    "STANDARD_CONCEPT": null,
+                    "CONCEPT_CODE": "258812007",
+                    "VOCABULARY_ID": "SNOMED",
+                    "CONCEPT_NAME": "mol/L",
+                    "DOMAIN_ID": "Unit",
+                    "STANDARD_CONCEPT_CAPTION": "Unknown",
+                    "CONCEPT_CLASS_ID": null,
+                    "INVALID_REASON": null
+                  },
+                  {
+                    "INVALID_REASON_CAPTION": "Unknown",
+                    "CONCEPT_ID": 4121402,
+                    "STANDARD_CONCEPT": null,
+                    "CONCEPT_CODE": "258813002",
+                    "VOCABULARY_ID": "SNOMED",
+                    "CONCEPT_NAME": "mmol/L",
+                    "DOMAIN_ID": "Unit",
+                    "STANDARD_CONCEPT_CAPTION": "Unknown",
+                    "CONCEPT_CLASS_ID": null,
+                    "INVALID_REASON": null
+                  },
+                  {
+                    "INVALID_REASON_CAPTION": "Unknown",
+                    "CONCEPT_ID": 4120726,
+                    "STANDARD_CONCEPT": null,
+                    "CONCEPT_CODE": "258814008",
+                    "VOCABULARY_ID": "SNOMED",
+                    "CONCEPT_NAME": "umol/L",
+                    "DOMAIN_ID": "Unit",
+                    "STANDARD_CONCEPT_CAPTION": "Unknown",
+                    "CONCEPT_CLASS_ID": null,
+                    "INVALID_REASON": null
+                  },
+                  {
+                    "INVALID_REASON_CAPTION": "Unknown",
+                    "CONCEPT_ID": 8750,
+                    "STANDARD_CONCEPT": null,
+                    "CONCEPT_CODE": "10*-6.[U]/L",
+                    "VOCABULARY_ID": "UCUM",
+                    "CONCEPT_NAME": "microunit per liter",
+                    "DOMAIN_ID": "Unit",
+                    "STANDARD_CONCEPT_CAPTION": "Unknown",
+                    "CONCEPT_CLASS_ID": null,
+                    "INVALID_REASON": null
+                  },
+                  {
+                    "INVALID_REASON_CAPTION": "Unknown",
+                    "CONCEPT_ID": 8647,
+                    "STANDARD_CONCEPT": null,
+                    "CONCEPT_CODE": "/uL",
+                    "VOCABULARY_ID": "UCUM",
+                    "CONCEPT_NAME": "per microliter",
+                    "DOMAIN_ID": "Unit",
+                    "STANDARD_CONCEPT_CAPTION": "Unknown",
+                    "CONCEPT_CLASS_ID": null,
+                    "INVALID_REASON": null
+                  },
+                  {
+                    "INVALID_REASON_CAPTION": "Unknown",
+                    "CONCEPT_ID": 4117651,
+                    "STANDARD_CONCEPT": null,
+                    "CONCEPT_CODE": "258917000",
+                    "VOCABULARY_ID": "SNOMED",
+                    "CONCEPT_NAME": "Micromole per gram of creatinine",
+                    "DOMAIN_ID": "Unit",
+                    "STANDARD_CONCEPT_CAPTION": "Unknown",
+                    "CONCEPT_CLASS_ID": null,
+                    "INVALID_REASON": null
+                  },
+                  {
+                    "INVALID_REASON_CAPTION": "Unknown",
+                    "CONCEPT_ID": 9015,
+                    "STANDARD_CONCEPT": null,
+                    "CONCEPT_CODE": "umol/g{creat}",
+                    "VOCABULARY_ID": "UCUM",
+                    "CONCEPT_NAME": "micromole per gram of creatinine",
+                    "DOMAIN_ID": "Unit",
+                    "STANDARD_CONCEPT_CAPTION": "Unknown",
+                    "CONCEPT_CLASS_ID": null,
+                    "INVALID_REASON": null
+                  },
+                  {
+                    "INVALID_REASON_CAPTION": "Unknown",
+                    "CONCEPT_ID": 9573,
+                    "STANDARD_CONCEPT": null,
+                    "CONCEPT_CODE": "mmol",
+                    "VOCABULARY_ID": "UCUM",
+                    "CONCEPT_NAME": "millimole",
+                    "DOMAIN_ID": "Unit",
+                    "STANDARD_CONCEPT_CAPTION": "Unknown",
+                    "CONCEPT_CLASS_ID": null,
+                    "INVALID_REASON": null
+                  }
+                ]
+              }},
+              "Occurrence": {
+                "Type": 2,
+                "IsDistinct": false,
+                "Count": 1
+              }
+            }
+          ],
+          "Type": "ANY",
+          "DemographicCriteriaList": [],
+          "Groups": []
+        },
+        "CodesetId": 6
+      }}
+    ],
+    "PrimaryCriteriaLimit": {"Type": "All"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 0
+    }
+  }
+}

@@ -30,7 +30,11 @@ studyCohorts <- ROhdsiWebApi::getCohortDefinitionsMetaData(baseUrl = baseUrl) %>
   dplyr::filter(stringr::str_detect(string = stringr::str_replace_all(tolower(.data$name), 
                                                                       pattern = " ", 
                                                                       replacement = ""),
-                                    pattern = "phenotypephebruary"))
+                                    pattern = "phenotypephebruary")) %>% 
+  dplyr::filter(stringr::str_detect(string = stringr::str_replace_all(tolower(.data$name), 
+                                                                      pattern = " ", 
+                                                                      replacement = ""),
+                                    pattern = "kidney injury")) 
 
 # compile them into a data table
 cohortDefinitionsArray <- list()
